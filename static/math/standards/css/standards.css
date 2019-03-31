@@ -1,0 +1,538 @@
+/* BEGIN NEW STYLES */
+
+.standards-nav-subject {
+  text-transform: uppercase;
+}
+
+.standards-nav-state {
+  margin-right: 5px;
+}
+
+.standards-nav-grade {
+  font-size: 12px !important;
+}
+
+.state-standards-header {
+  position: relative;
+}
+
+.state-standards-flag {
+  position: absolute;
+  right: 15px;
+  top: -17px;
+}
+
+.mathStdsDetails #bd {
+  width:950px;
+}
+
+/* END NEW STYLES */
+
+/*
+ * for state standards page
+ * */
+#yui-history-iframe {
+  left:0;
+  top:0;
+  visibility:hidden;
+  width:1px;
+  height:1px;
+  position:absolute;
+}
+#stdsHeader {
+  padding:0;
+  margin:12px 0 0 0;
+  position:relative;
+  background:url(../images/state_stds_yellow_header_vs1.png) no-repeat 0 0;
+}
+#stdsHeader.multi-subject {
+  background-image:url(../images/multi_subject_header.png);
+}
+
+#stateStdsGrdDiv {
+  height:22px;
+}
+#stateStdsGrdList {
+  padding:0 0 0 15px;
+  font-size:11px;
+  color:#de560e;
+}
+#stateStdsGrdList a {
+  color:#6D8E15;
+}
+#stateStdsGrdList .subject-choices {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  width: 165px;
+}
+#stateStdsOptions {
+  width:auto;
+  border:1px solid #FFF8C1;
+  padding:10px 15px;
+  color:#000;
+  font-size:11px;
+}
+#stateStdsOptions a {
+  color:#007b69;
+  font-weight:bold;
+}
+#stateStdsOptions em {
+  color:#555;
+  font-weight:bold;
+}
+.performSkill {
+  color:#E0530E;
+  font-weight:bold;
+}
+#dv-listing-standards-alignment {
+  width:100%;
+}
+#dv-listing-standards-alignment h3 {
+  color:#f65314;
+  display:block;
+  font-size:22px;
+  font-weight:medium;
+  margin-bottom:25px;
+}
+#dv-listing-standards-alignment h4 {
+  font-weight:bold;
+  line-height:1.5em;
+  margin-bottom:11px;
+}
+
+#dv-listing-standards-alignment .listing-category {
+  margin:0 0 25px 0;
+}
+#dv-listing-standards-alignment sup {
+  vertical-align:super;
+}
+
+#dv-listing-standards-alignment .listing-alignment {
+  margin-bottom:38px;
+}
+
+#dv-listing-standards-alignment .listing-level1,
+#dv-listing-standards-alignment .listing-level2,
+#dv-listing-standards-alignment .listing-level3,
+#dv-listing-standards-alignment .listing-level4,
+#dv-listing-standards-alignment .listing-level5 {
+  margin:0 0 20px 20px;
+}
+
+.listing-standards-alignment-level1 {
+  margin-left:0;
+}
+
+h2.stateStds {
+  color:#000;
+  font-size:15px;
+  font-weight:bold;
+  margin:2em 0 1.2em 0;
+  padding:0;
+}
+
+.mathStdsDetails .crisp-splash-header {
+  line-height:48px;
+  padding:55px 0 5px 0;
+}
+
+.mathStdsDetails.csd-us .crisp-splash-header,
+.mathStdsDetails.csd-uk .crisp-splash-header,
+.mathStdsDetails.csd-ca .crisp-splash-header {
+  padding:35px 0 5px 0;
+}
+
+.standards-availability-status {
+  color:#4ea601;
+  display:inline-block;
+  font:normal 30px/1em "Trebuchet MS";
+  margin:0 0 60px 0;
+  min-width:674px;
+  padding:5px 0 0 0;
+}
+
+.standards-availability-status.grade-tab {
+  color:#000;
+  font:bold 15px verdana, arial, helvetica, sans-serif;
+  margin:0 0 20px 0;
+  padding:10px 0 0 0;
+}
+
+.mathStdsDetails.csd-ca .standards-availability-status,
+.mathStdsDetails.csd-uk .standards-availability-status {
+  font:normal 22px/1em "Trebuchet MS";
+}
+
+.mathStdsDetails.csd-ca .standards-availability-status.grade-tab,
+.mathStdsDetails.csd-uk .standards-availability-status.grade-tab {
+  font:bold 15px verdana, arial, helvetica, sans-serif;
+}
+
+.mathStdsDetails.csd-in .standards-availability-status {
+  margin-bottom:25px;
+}
+
+.print-version .standards-availability-status {
+  color:#000;
+  font:bold 15px verdana, arial, helvetica, sans-serif;
+  margin:0 0 15px 0;
+  padding:5px 0 0 0;
+}
+
+.default-not-align-text,
+.explain-green-black-text {
+  margin:0 0 27px 0;
+  width:700px;
+}
+
+div.flagOnlyHidden {
+  display:none;
+}
+
+/** bug 43940 #stateStdsMain h1.pageTitle { margin:0; padding:2em 0 0 0; } */
+#stateStdsMain h2.sectionHdr {
+  margin:21px 0 14px 0;
+  padding:0;
+}
+
+a.state-stds-primary-forward {
+  background:transparent url(../../images/button_sprite_v4.png) no-repeat right 0;
+  display:block;
+  float:left;
+  height:32px;
+  padding-right:35px;
+  text-decoration:none;
+  color:#62830A;
+  font:bold 10px verdana, arial, helvetica, sans-serif;
+}
+a:hover.state-stds-primary-forward {
+  color:#62830A;
+}
+a.state-stds-primary-forward span {
+  background:transparent url(../../images/button_sprite_v4.png) no-repeat left 0;
+  display:block;
+  line-height:30px;
+  padding:0 5px 2px 15px;
+}
+
+#parentOfContent #ulReportingBenefits,
+#parentOfContent #stateStndsTxt {
+  background:url(../images/state_stnds_pg_img.png) no-repeat 20px 0;
+  min-height:150px;
+  padding:0 0 30px 190px;
+  width:590px;
+}
+
+.csd-us .stds-info,
+.csd-uk .stds-info,
+.csd-ca .stds-info {
+  background: url(../images/us_state_stnds_info_pg.png) no-repeat 0 20px;
+  min-height: 302px;
+}
+
+.csd-us .stds-info.la {
+  background-image:url(../images/us_state_la_stnds_info_pg.png);
+}
+
+.csd-uk .stds-info.la {
+  background-image:url(../images/i18n-ELA-UK-standards-screenshot.png);
+}
+
+.csd-ca .stds-info.la {
+  background-image:url(../images/i18n-ELA-CA-standards-screenshot.png);
+}
+
+.csd-us .stds-info.sci {
+  background-image:url(../images/us_state_sci_stnds_info_pg.png);
+}
+
+.csd-us .stds-info.ss {
+  background-image:url(../images/us_state_ss_stnds_info_pg.png);
+}
+
+/** bug 38948: eu edition special standard information page */
+.csd-eu #parentOfContent #stateStndsTxt {
+  background:none;
+  min-height:0;
+  padding-bottom:0;
+  padding-left:0;
+  width:auto;
+}
+
+.csd-us #parentOfContent #stateStndsTxt,
+.csd-uk #parentOfContent #stateStndsTxt,
+.csd-ca #parentOfContent #stateStndsTxt {
+  background: none;
+  min-height: 0;
+  padding-bottom: 25px;
+  padding-left: 455px;
+  width: 498px;
+}
+
+/* bug 134335: add additional spacing for the removal of track by standards space */
+.csd-us .spc-rmvd-track-std,
+.csd-uk .spc-rmvd-track-std,
+.csd-ca .spc-rmvd-track-std {
+  height: 135px;
+}
+
+#parentOfContent #ulReportingBenefits.bullet4 {
+  background-image:url(../images/state_stnds_pg_img_small.png);
+  min-height:130px;
+  padding-bottom:0;
+}
+
+#parentOfContent #ulReportingBenefits {
+  width:auto;
+}
+
+#parentOfContent #ulReportingBenefits li {
+  background:url(../../images/listbullet-small.gif) no-repeat 0 2px;
+  display:block;
+  padding:0 0 10px 20px;
+}
+
+.csd-au #parentOfContent #stateStndsTxt,
+.csd-ie #parentOfContent #stateStndsTxt,
+.csd-in #parentOfContent #stateStndsTxt,
+.csd-nz #parentOfContent #stateStndsTxt,
+.csd-za #parentOfContent #stateStndsTxt,
+.csd-sg #parentOfContent #stateStndsTxt {
+  background-image:none;
+  min-height:0;
+  padding:0;
+  width:auto;
+}
+
+#parentOfContent #stateStndsTxt h3 {
+  color: #4ea601;
+  font: normal 18px verdana, arial, helvetica, sans-serif;
+  margin-bottom: 6px;
+}
+
+.csd-ca #parentOfContent #stateStndsTxt h3,
+.csd-uk #parentOfContent #stateStndsTxt h3 {
+  font-size:16px;
+}
+
+#parentOfContent #reportingBenefits h2.stateStds {
+  margin-top:0;
+}
+
+#parentOfContent p {
+  font-size:12px;
+  line-height:1.75em;
+}
+
+.csd-us #parentOfContent p,
+.csd-uk #parentOfContent p,
+.csd-ca #parentOfContent p {
+  color: #202020;
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+#parentOfContent #stateStndsTxt p {
+  line-height:1.45em;
+}
+
+.stds-info-footer {
+  display: block;
+  margin-left: 0;
+  visibility:hidden;
+}
+
+.csd-eu .stds-info-footer {
+  display:block;
+  margin-left:0;
+}
+
+.csd-au .stds-info-footer,
+.csd-ie .stds-info-footer,
+.csd-in .stds-info-footer,
+.csd-nz .stds-info-footer,
+.csd-za .stds-info-footer,
+.csd-sg .stds-info-footer {
+  display: block;
+  margin-left: 0;
+}
+
+.stds-info-footer h4 {
+  color:#202020;
+  font-size:15px;
+  font-style:italic;
+  font-weight:normal;
+  margin-bottom: 20px;
+}
+
+#lstStdsLks {
+  color:transparent;
+  font-size:0;
+  margin-bottom:50px;
+}
+
+.csd-us #lstStdsLks,
+.csd-uk #lstStdsLks,
+.csd-ca #lstStdsLks {
+  margin-bottom: 30px;
+}
+
+#lstStdsLks a {
+  background:#e6f5f5 none;
+  color:#0782b0;
+  display:inline-block;
+  font-size:13px;
+  height:40px;
+  line-height:40px;
+  margin:0 3px 0 0;
+  padding:0 18px;
+  text-align:center;
+  text-decoration:none;
+}
+
+#lstStdsLks a:hover {
+  background-color:#4bc6f4;
+  color:#fff;
+  text-decoration:none;
+}
+
+.csd-ca #lstStdsLks a {
+  padding:0 8px;
+}
+
+#lstStdsLks.us-longer-navbar a {
+  padding:0 10px;
+}
+
+#lstStdsLks.us-longer-navbar-with-calc a {
+  padding:0 7px;
+}
+
+#lstStdsLks.us-longer-navbar.ela a {
+  padding:0 13px;
+}
+
+#lstStdsLks.us-12-grd-navbar a {
+  padding:0 17px;
+}
+
+/** bug 57634: grade links wrap on some standards page; single line of links preferred */
+#lstStdsLks.wrapped-lks a {
+  padding-left:0;
+  padding-right:0;
+}
+
+/* moved from style.css for state standards page */
+#stateStds h2 {
+  color: #CD6027;
+  font-weight: normal;
+  font-size:16px;
+  padding:18px 0 10px 18px;
+  text-decoration:none;
+}
+#stateStds h2 a {
+  color: #CD6027;
+  text-decoration:none;
+}
+#stateStds h2 a:hover {
+  color: #CD6027;
+  text-decoration:underline;
+}
+#flagList h2 {
+  padding-left:0;
+}
+#stateList {
+  width:53%;
+}
+#flagList {
+  width:47%;
+}
+#listDiv {
+  padding:0 0 18px 18px;
+}
+#stateList ul {
+  float:left;
+  padding-right:18px;
+  font-size:9px;
+}
+#stateList ul.last {
+  padding-right:0;
+}
+#stateList li, #stateList li a {
+  font-size:9px;
+  padding:0 0 1px 0;
+}
+
+#commonCoreCopyRight {
+  color:#bababa;
+  font-size:10px;
+  padding:5px 0;
+}
+
+.long-cc-state-name,
+.long-ca-ela-subhdr {
+  right: -50px;
+}
+
+div.stds-question {
+  border-top: 2px solid #ebebeb;
+  font-size:15px;
+  padding-top: 20px;
+}
+
+.stds-question span{
+  color:#202020;
+}
+
+.stds-question a {
+  color: #489405;
+  text-decoration:none;
+}
+
+.stds-question a:after {
+  content:">>";
+  display:inline-block;
+  font-size:75%;
+  padding-left:3px;
+}
+/* end for state standards page */
+
+/**
+ * Following may be obsolete as we may not be using /static/math/standards/standards.js anymore.
+ */
+.ixl-screenshot {
+  border: 2px solid #8ad2ed;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 0px;
+  box-shadow: rgba(0, 0, 0, 0.309804) 4px 6px 7px 0px;
+}
+
+.ixl-screenshot .hd {
+  position: relative;
+  z-index: 2;
+  border-bottom: 1px solid #8ad2ed;
+  padding: 8px;
+  border-radius: 15px 15px 0px 0px;
+  text-align: center;
+  font-family: Trebuchet MS, Verdana, sans;
+  font-size: 14px;
+}
+
+.ixl-screenshot .bd {
+  position: relative;
+  width: auto;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  color: #000;
+  padding: 5px 12px 10px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.ixl-screenshot .bd img {
+  max-width: 620px;
+  max-height: 400px;
+}
+

@@ -1,0 +1,116 @@
+.privacy h1, .privacy h2, .tos h1, .tos h2 {
+  color: #6d8e15;
+  font-weight: bold;
+}
+.privacy h1, .tos h1 {
+  font-size: 19px;
+}
+.privacy h2, .tos h2 {
+  font-size: 14px;
+  margin: 1em 0;
+}
+.privacy h3, .tos h3 {
+  font-size: 14px;
+  margin: 1em 0;
+  font-weight: normal;
+}
+.privacy p, .tos p {
+  margin: 1em 0;
+}
+.privacy .indent, .tos indent {
+  padding: 0 0 0 30px;
+}
+.privacy .indent ol, .privacy .indent ul, .tos .indent ol, .tos .indent ul {
+  padding: 0 0 0 15px;
+}
+.privacy ol li, .privacy ul li, .tos ol li, .tos ul li {
+  margin-bottom: 20px;
+}
+.privacy ul.list-bullet li, .tos ul.list-bullet li {
+  list-style-type: disc !important;
+}
+.privacy ol li, .tos ol li {
+  list-style: decimal;
+}
+.privacy ul.list-indent, .privacy ol.list-indent, .tos ul.list-indent, .tos ol.list-indent {
+  padding: 0 0 0 40px;
+}
+.tos ol.list-lowercase-letter-parentheses {
+  counter-reset: list;
+}
+.tos ol.list-lowercase-letter-parentheses > li {
+  display: block;
+  list-style: none;
+  position: relative;
+  left: -1.4em;
+  margin-left: 1.4em;
+}
+.tos ol.list-lowercase-letter-parentheses > li:before {
+  display: inline-block;
+  counter-increment: list;
+  content: counter(list, lower-alpha) ")";
+  width: 1.4em;
+  margin-left: -1.4em;
+}
+.privacy .text-underline, .tos .text-underline {
+  text-decoration: underline;
+}
+.privacy ol.links li {
+  list-style: decimal inside;
+}
+.tos ol.list-alpha li {
+  list-style: lower-alpha;
+}
+.tos ol.list-less-spacing li {
+  margin-bottom: 10px;
+}
+.tos .paragraphs-indent p {
+  text-indent: 40px;
+}
+
+/* mobile style rules */
+.privacy.mobile, .tos.mobile {
+  text-align: left;
+  font-size: 18px;
+}
+.privacy.mobile h1, .privacy.mobile h2, .tos.mobile h1, .tos.mobile h2 {
+  color: #68c923;
+  font-weight: bold;
+  font-family: 'HelveticaNeue-Bold', Helvetica;
+}
+.privacy.mobile h1, .tos.mobile h1 {
+  font-size: 32px;
+}
+.privacy.mobile h2, .tos.mobile h2 {
+  font-size: 22px;
+  margin: 1em 0;
+}
+.privacy.mobile h3, .tos.mobile h3 {
+  margin: 1em 0;
+  font-weight: normal;
+  font-family: 'HelveticaNeue-Medium', Helvetica;
+}
+.privacy.mobile h3 {
+  font-size: 14px;
+}
+.tos.mobile h3 {
+  font-size: 18px;
+}
+.privacy.mobile p, .privacy.mobile div, .tos.mobile p, .tos.mobile div {
+  font-family: 'HelveticaNeue-Light', Helvetica;
+}
+.privacy.mobile p, .tos.mobile p {
+  margin: 1em 1em;
+}
+.privacy.mobile div, .tos.mobile div {
+  margin: 0em 1em;
+}
+.privacy.mobile a {
+  text-decoration: none;
+}
+.privacy.mobile.ad, .tos.mobile.ad {
+  padding: 20px 45px 45px 45px;
+}
+.privacy.mobile, .tos.mobile {
+  padding: 75px 45px 45px 45px;
+}

@@ -1,0 +1,1767 @@
+/*****************************************************************************/
+/* New styles for membership page.  Need to remove/cleanup old styles. */
+
+#parentTab, #teacherTab {
+  font:normal 12px Verdana, arial, helvetica, clean, sans-serif;
+  height:347px;
+  margin:10px auto;
+  width:940px;
+}
+
+#parentTab {
+  background:transparent url(../images/membership_parent_tab_vs1.png) no-repeat;
+}
+
+#teacherTab {
+  background:transparent url(../images/membership_teacher_tab_vs1.png) no-repeat;
+}
+
+#membershipMarketingDv {
+  font-size:14px;
+  margin:25px auto;
+  width:940px;
+}
+
+#membershipMarketingDv .fL {
+  width:550px;
+}
+#membershipMarketingDv .fR {
+  text-align:right;
+  width:360px;
+}
+
+#membershipMarketingDv h3 {
+  color:#557302;
+  font-size:18px;
+  font-weight:bold;
+  margin:15px;
+}
+
+#membershipMarketingDv h4 {
+  color:#729107;
+  font-size:18px;
+  font-weight:bold;
+  margin:0 0 20px 0;
+}
+
+.marketingQuestion {
+  font-size:15px;
+}
+
+span.marketingQuestion {
+  color: #729107;
+  font-weight:bold;
+}
+
+.txtMod {
+  background:url(../images/parent_tab_para_prt_vs1.png) repeat-x 0 -1400px;
+  margin:0 0 10px 0;
+  width:550px;
+}
+
+.txtModCenter {
+  border:1px solid #FBDB4C;
+  border-width:1px 0 1px 0;
+  float:left;
+  height:172px;
+  width:530px;
+}
+
+.txtModSR {
+  float:right;
+  height:174px;
+  width:10px;
+}
+
+.txtModSL {
+  float:left;
+  height:174px;
+  width:10px;
+}
+
+#teacherMarketing .txtMod {
+  background:url(../images/teacher_tab_para_prt_vs1.png) repeat-x 0 -1608px;
+}
+
+#teacherMarketing .txtModCenter {
+  border:1px solid #ECECEC;
+  border-width:1px 0 1px 0;
+  height:199px;
+  width:528px;
+}
+
+#teacherMarketing .txtModSR, #teacherMarketing .txtModSL {
+  height:201px;
+  width:11px;
+}
+
+.orgLRL{
+  background:url(../images/parent_tab_para_prt_vs1.png) no-repeat 0 0;
+}
+
+.orgLRR{
+  background:url(../images/parent_tab_para_prt_vs1.png) no-repeat 0 -348px;
+}
+
+.orgRLL{
+  background:url(../images/parent_tab_para_prt_vs1.png) no-repeat 0 -696px;
+}
+
+.orgRLR{
+  background:url(../images/parent_tab_para_prt_vs1.png) no-repeat 0 -1044px;
+}
+
+.greyLRL{
+  background:url(../images/teacher_tab_para_prt_vs1.png) no-repeat 0 0;
+}
+
+.greyLRR{
+  background:url(../images/teacher_tab_para_prt_vs1.png) no-repeat 0 -402px;
+}
+
+.greyRLL{
+  background:url(../images/teacher_tab_para_prt_vs1.png) no-repeat 0 -804px;
+}
+
+.greyRLR{
+  background:url(../images/teacher_tab_para_prt_vs1.png) no-repeat 0 -1206px;
+}
+
+.txtModCenter p {
+  margin:0 15px;
+}
+
+ul.benefitLi {
+  margin:0 0 25px 0;
+}
+
+#parentMarketing ul.benefitLi li, #teacherMarketing ul.benefitLi li {
+  background:url(../images/membership_yellow_bullet_vs1.png) no-repeat;
+  min-height: 40px;
+  _height: 40px;
+  padding:7px 0 0 40px;
+}
+
+#teacherMarketing ul.benefitLi li {
+  background:url(../images/bullet_2.png) no-repeat;
+}
+
+#teacherTab {
+  background:url(../images/membership_teacher_tab_vs1.png) no-repeat;
+  height:347px;
+  margin:10px auto;
+  width:940px;
+}
+
+#tabContentDv {
+  float:left;
+  padding:0 22px;
+  position:relative;
+  width:626px;
+}
+
+#tabsOnlyDv {
+  float:left;
+  height:200px;
+  margin-top:18px;
+  width:270px;
+}
+
+#parentTab h2, #teacherTab h2 {
+  color:#cc5f1d;
+  font-weight:bold;
+  font-size:24px;
+  margin:35px 0 0 15px;
+  height:70px;
+}
+
+#teacherTab h2 {
+  color:#fff;
+}
+
+#parentTab #marketingDv {
+  color:#557302;
+  font-weight:bold;
+  font-size:15px;
+  padding-top:20px;
+  text-align:center;
+  width:626px;
+}
+
+#parentTab #buttonDv, #teacherTab #buttonDv {
+  padding-top:20px;
+  text-align:center;
+  width:626px;
+}
+
+#teacherTab #buttonDv {
+  padding-top:40px;
+}
+
+#parentTab #quoteDv,  #teacherTab #quoteDv {
+  background:transparent url(../images/membership_quote_parent_vs1.png) no-repeat;
+  color:#cc5f1d;
+  height:119px;
+  margin-top:15px;
+  padding-left:158px;
+  position:relative;
+  width:468px;
+}
+
+#teacherTab #quoteDv {
+  background:transparent url(../images/membership_quote_teacher_vs1.png) no-repeat;
+  color:#3c5101;
+  margin-top:20px;
+  height:120px;
+}
+
+#quoteTxt {
+  padding:0 8px 5px 8px;
+}
+
+#quoteNameAddr {
+  font-style:italic;
+  padding:0 8px;
+}
+
+#seeMoreDv {
+  bottom:8px;
+  position:absolute;
+  right:8px;
+}
+.curlyQuote {
+  font:normal 14px "Times New Roman",Georgia,Serif;
+}
+#activateBrochureLkDv {
+  color:#fefefe;
+  padding-top:22px;
+  width:626px;
+}
+
+#activateBrochureLkDv a {
+  color:#fefefe;
+}
+
+.membershipActBtn {
+  display:block;
+  float:left;
+  font:normal 24px Futura, arial, helvetica, sans-serif;
+  height:93px;
+  width:198px;
+}
+
+.planTxt {
+  padding:15px 0 0 0;
+}
+
+.renewTxt {
+  padding:25px 0 0 0;
+}
+
+.priceTxt {
+  font-size:30px;
+  line-height:24px;
+}
+
+.threeBtnLayout{
+  margin:0 14px 0 0;
+}
+
+.twoBtnLayout {
+  margin:0 30px 0 100px;
+  _margin:0 30px 0 50px;
+}
+
+.hoverActBtnTxt {
+  font:bold 14px Verdana, arial, helvetica, clean, sans-serif;
+  padding:20px 15px;
+}
+
+#parentMonthBtn {
+  background:url(../images/membership_family_btns_vs1.png) no-repeat 0 0;
+  color:#557302;
+  display:block;
+  margin:0 30px 0 100px;
+  _margin:0 30px 0 50px;
+  text-decoration:none;
+}
+
+#parentMonthBtn:hover {
+  background-position:0 -186px;
+}
+
+#parentYearBtn{
+  background:url(../images/membership_family_btns_vs1.png) no-repeat 0 -372px;
+  color:#ba5214;
+  display:block;
+  text-decoration:none;
+}
+
+#parentYearBtn:hover {
+  background-position:0 -558px;
+}
+
+#classroomBtn {
+  background:url(../images/membership_school_btns_vs1.png) no-repeat 0 0;
+  color:#ba5214;
+  display:block;
+  text-decoration:none;
+}
+
+#classroomBtn:hover {
+  background-position:0 -186px;
+}
+
+#siteQuoteBtn {
+  background:url(../images/membership_school_btns_vs1.png) no-repeat 0 -372px;
+  color:#0e6587;
+  display:block;
+  margin:0 14px 0 0;
+  text-decoration:none;
+}
+
+#siteQuoteBtn:hover {
+  background-position:0 -558px;
+}
+
+#trialBtn {
+  background:url(../images/membership_school_btns_vs1.png) no-repeat 0 -744px;
+  color:#557302;
+  display:block;
+  text-decoration:none;
+}
+
+#trialBtn:hover {
+  background-position:0 -930px;
+}
+
+#parentMonthBtn:hover .actBtnRollOut, #parentYearBtn:hover .actBtnRollOut,
+#siteQuoteBtn:hover .actBtnRollOut, #trialBtn:hover .actBtnRollOut,
+#classroomBtn:hover .actBtnRollOut {
+  display:none;
+}
+
+#parentMonthBtn .actBtnRollOut, #parentYearBtn .actBtnRollOut,
+#siteQuoteBtn .actBtnRollOut, #trialBtn .actBtnRollOut,
+#classroomBtn .actBtnRollOut {
+  display:block;
+}
+
+#parentMonthBtn:hover .hoverActBtnTxt, #parentYearBtn:hover .hoverActBtnTxt,
+#siteQuoteBtn:hover .hoverActBtnTxt, #trialBtn:hover .hoverActBtnTxt,
+#classroomBtn:hover .hoverActBtnTxt {
+  display:block;
+}
+
+#parentMonthBtn .hoverActBtnTxt, #parentYearBtn .hoverActBtnTxt,
+#siteQuoteBtn .hoverActBtnTxt, #trialBtn .hoverActBtnTxt,
+#classroomBtn .hoverActBtnTxt {
+  display:none;
+}
+
+#tabLk {
+  display:block;
+  font:bold 24px Verdana, arial, helvetica, clean, sans-serif;
+  height:70px;
+  line-height:20px;
+  padding:30px 0 0 15px;
+  text-decoration:none;
+  width:230px;
+}
+
+#teacherTab #tabLk {
+  color:#cc5f1d;
+}
+
+#parentTab #tabLk {
+  color:#fff;
+}
+
+.tabLkClickHere {
+  cursor:pointer;
+  font-size:13px;
+  font-weight:normal;
+  height:20px;
+  width:120px;
+  text-align:center;
+  text-decoration:underline;
+}
+
+#listLkDv {
+  margin:25px 0 30px 10px;
+}
+
+/* End of new styles for membership page. */
+/*****************************************************************************/
+
+h1.subscheading  {
+  font-weight: bold;
+  font-size: 20px;
+  color: #6e9407;
+  /*margin: 20px 0 20px 12px;*/
+}
+
+#setupfamily h1.subscheading {
+  margin-left:0;
+  font-size: 18px;
+}
+
+
+.yui-signuptrial h1.subscheading, .yui-classroom h1.subscheading {
+  margin:0;
+}
+
+.yui-signuptrial form, .yui-classroom form {
+  margin-top:20px;
+}
+
+.yui-signuptrial p, .yui-classroom p {
+  margin-top: 15px;
+}
+
+.yui-classroom p {
+  margin-bottom:15px;
+}
+
+.yui-signuptrial ul, .yui-classroom ul {
+  margin: 0.75em;
+  padding-left: 20px;
+}
+
+/* IE6 needs this to keep the width of password fields the same as text fields */
+.yui-signuptrial .rightTd input, .yui-signuptrial form#reqQuote .rightTd textarea {
+  width:76%;
+}
+
+.yui-signuptrial .rightTd select {
+  width: 76%;
+}
+
+.yui-link-button {
+  margin-left: 10px;
+  *margin-left: 15px;
+  *margin-bottom: 1px;
+}
+
+/*
+
+TODO
+.subnote {
+  margin: 0 10px 0 30px;
+}
+
+.yui-chooseplan .subnote p {
+  font-size: 14px;
+}
+
+.yui-chooseplan .subnote ul {
+  margin: 15px 0;
+}
+
+.yui-chooseplan .subnote li {
+  background: transparent url(../images/bullet_2.png) no-repeat;
+  padding-left: 40px;
+  min-height: 40px;
+  _height: 40px;
+  font-size: 14px;
+  padding-top: 7px;
+}
+*/
+
+h2, #actKeyLbl {
+  font-size:14px;
+  font-weight:bolder;
+  color:#729107;
+}
+
+.subfamily, .yui-signuptrial, .yui-classroom {
+  font-size: 14px;
+}
+
+.subfamily .yui-button, .yui-signuptrial .yui-button, .yui-classroom .yui-button {
+  font-size: 13px;
+}
+
+.subfamily h2, .yui-signuptrial h2, .yui-classroom h2, #actKeyLbl {
+  font-size: 16px;
+}
+
+.yui-classroom .note {
+  color: blue;
+}
+
+.yui-classroom div.receiptDiv {
+  float: left;
+  width: 33%;
+}
+
+.yui-classroom div.receiptDivWide {
+  float: left;
+  width: 66%;
+}
+
+/*
+.yui-chooseplan h2 {
+  font-size:20px;
+}
+
+.yui-chooseplan h3 {
+  font-size:18px;
+  font-weight:bold;
+  margin:15px 0;
+  color: #729107;
+}
+
+.yui-chooseplan h3.first {
+  padding-top:15px;
+}
+*/
+
+.subfamily .yui-familysubscribe h2, .yui-signuptrial h2, .yui-classroom h2 {
+  margin: 20px 0;
+}
+
+.subfamily .yui-confirm h2 {
+  margin-bottom: 5px;
+}
+
+.yui-confirm dt {
+  float: left;
+  font-weight: bold;
+  margin-right: 0.4em;
+}
+
+.yui-confirm dd {
+  margin:0;
+}
+
+.yui-b-mid {
+  text-align:center;
+}
+
+.subfamily .yui-b {
+  padding:0 0 0 20px;
+}
+
+.yui-familysubscribe ul, .yui-familysetup ul {
+  margin-bottom: 5px;
+}
+
+.yui-familysubscribe ul.errorMessage, .yui-familysetup ul.errorMessage {
+  margin-bottom:20px;
+}
+
+.subfamily .yui-b p {
+  margin: 20px 0;
+}
+
+.yui-familysubscribe p {
+  width: 93%;
+}
+
+.yui-familysubscribe .terms input, .yui-classroom .terms input {
+  float: left;
+  margin-left: -25px;
+  text-align: left;
+  *margin-top: -1px;
+}
+
+.yui-familysubscribe .terms .errorMessage, .yui-classroom .terms .errorMessage {
+  display: block;
+  margin: 0 0 5px -25px;
+}
+
+.yui-familysubscribe .purchase, .yui-classroom .purchase {
+  text-align: right;
+  margin: 20px 120px 20px 0;
+}
+
+.yui-familysubscribe .secure {
+  margin-bottom:-7px;
+}
+
+.yui-familysubscribe .purchase button {
+  *margin-bottom: -10px;
+}
+
+form#classroomdone div.purchase .yui-push-button button,
+form#subscribe div.purchase .yui-push-button button {
+  padding:0 8px 0 27px;
+}
+
+/**
+ * The text "renew" is shorter than "purchase", so the padding changes.
+ */
+form#subscribe div.purchase.renew .yui-push-button button {
+  padding:0 15px 0 35px;
+}
+
+div#ssIconDv {
+  margin:-15px 120px 20px 0;
+  height:20px;
+}
+
+div#ssIconDv div#ssIcon {
+  color:#bfbfbf;
+  float:right;
+  font:bold 10px/20px Verdana, arial, helvetica, clean, sans-serif;
+  margin-right:13px;
+  _margin-right:3px;
+  width:110px;
+}
+
+div#ssIconDv div#ssIcon div.fR {
+  background:url(../images/checkout_lock.gif) no-repeat 0 0;
+  padding-left:25px;
+}
+
+div#purchaseSecureIconSeal {
+  position:relative;
+}
+
+.yui-familysetup #loginLinkJoin {
+  font-size: 11px;
+}
+
+.yui-signuptrial, .yui-classroom {
+  padding:0 20px;
+}
+
+#ccLink {
+  float:right;
+}
+
+p.instruction {
+  font-weight: normal;
+  font-style: italic;
+  margin: 0 0 0 1em;
+}
+
+.wwFormTable #position {
+  font-size:100%;
+}
+
+.wwFormTable {
+  width:100%;
+}
+
+.noErrors .wwFormTable {
+  width: auto;
+}
+
+.matchTwoColWidth {
+  width: 75%;
+}
+
+.subfamily .matchTwoColWidth {
+  width: 615px;
+}
+
+.subfamily .wwFormTable td.leftLabel {
+  width: 200px;
+}
+
+.subfamily .wwFormTable td.rightTd {
+  width: 403px;
+}
+
+.subfamily .wwFormTable td.rightTd-start {
+  width: 262px;
+* width: 260px;
+}
+
+.subfamily .wwFormTable td.rightTd-end {
+  width: 138px;
+* width: 136px;
+}
+
+.noErrors .wwFormTable td.errorCell, .wwFormTable td.noborder {
+  padding: 0px;
+  width: 0px;
+}
+
+.wwFormTable td {
+  border-style:solid;
+  border-width:2px;
+  padding: 5px;
+}
+
+.wwFormTable td.topLabel, .wwFormTable td.leftLabel {
+  color: #6e9407;
+  font-weight: bold;
+  background-color: #eaf7c7;
+  border-color: #cdd8ae #dfeeb6 #dfeeb6 #cdd8ae;
+}
+
+.wwFormTable td.topLabel {
+  border-top-width: 3px;
+}
+
+.wwFormTable td span.perYear {
+  font-size: 10px;
+}
+
+.yui-classroom .wwFormTable td.topLabel-left,
+.yui-classroom .wwFormTable td.topLabel-left-wide {
+  padding-left: 1em;
+  border-left-width: 3px;
+  width: 49%;
+}
+
+.us .wwFormTable td.topLabel-left,
+.wwFormTable td.topLabel-left-wide {
+  width: 60%;
+}
+
+.yui-classroom .wwFormTable td.topLabel-right,
+.yui-classroom .wwFormTable td.topLabel-right-short {
+  padding-left: 1em;
+  width: 51%;
+  border-right: 3px solid #cdd8ae;
+}
+
+.yui-classroom .wwFormTable td.topLabel-right-very-short {
+  padding-left: 1em;
+  width: 20%;
+  border-right: 3px solid #cdd8ae;
+}
+
+.yui-classroom .wwFormTable td.topLabel-middle {
+  padding-left: 1em;
+}
+
+/* The US classroom license total is shorter because there is no also payable as text. The cc version also has a shorter top right label */
+.us .wwFormTable td.topLabel-right,
+.wwFormTable td.topLabel-right-short {
+  width: 40%;
+}
+
+
+
+.wwFormTable td.leftLabel {
+  border-left-width: 3px;
+  width: 28%;
+  /**width: 28%;*/
+}
+
+.wwFormTable td.botTd, .wwFormTable td.rightTd {
+  background-color: #FFFFFF;
+  border-color: #ebf4d2;
+}
+
+.yui-classroom .wwFormTable td.botTd {
+  border-bottom: 3px solid #cdd8ae;
+  padding-left: 1em;
+}
+
+.wwFormTable td.botTd-left {
+  border-left: 3px solid #cdd8ae;
+}
+
+.wwFormTable td.botTd-right {
+  border-right: 3px solid #cdd8ae;
+}
+
+.wwFormTable td.rightTd {
+  border-right-color: #cdd8ae;
+  border-right-width: 3px;
+  width: 47%;
+  /**width: 44%;*/
+}
+
+.wwFormTable td.rightTd-start {
+}
+
+.wwFormTable td.rightTd-end {
+  border: 3px solid #cdd8ae;
+  text-align: center;
+  background: #99bb3d;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 0px;
+}
+
+span.memo {
+  color: #6e9407;
+  font-size: 10px;
+  font-style: italic;
+}
+
+span.memo2 {
+  color: #6e9407;
+  font-size: 10px;
+  font-style: italic;
+  text-transform:capitalize;
+}
+
+span.patch-lowercase {
+  text-transform:lowercase;
+}
+
+div.memo {
+  color: #6e9407;
+  font-size: 10px;
+  font-style: italic;
+  margin-top: -5px;
+}
+
+.wwFormTable td.rightTd-end #priceQuote {
+  font-size: 30px;
+  height: 36px;
+}
+
+.wwFormTable td.rightTd-end #perPayPeriod {
+  font-size: 10px;
+}
+
+.wwFormTable td.rightTd-end .localPriceDiv {
+  font-size: 10px;
+  font-weight: normal;
+  font-style:italic
+}
+
+.wwFormTable td.leftLabel-last, .wwFormTable td.rightTd-last {
+  border-bottom: 3px solid #cdd8ae;
+}
+
+.wwFormContainer .wwFormTable td.rightTd-last {
+  border-right: 0px;
+}
+
+.wwFormContainer .wwFormTable tr.lastRow td.errorCell {
+  border-bottom: 3px solid #cdd8ae;
+  border-right: 3px solid #cdd8ae;
+}
+
+.wwFormTable .first .leftLabel, .wwFormTable .first .rightTd {
+  border-top: 3px solid #cdd8ae;
+}
+
+.wwFormTable td.errorCell, .wwFormTable td.noborder {
+  border:none;
+}
+
+.wwFormTable td div.errMsg {
+  padding: 0px 0px 5px 15px;
+}
+.yui-signuptrial .wwFormTable td.errorCell {
+  padding-left: 5px;
+  width: 356px;
+}
+
+.wwFormTable td.rightTd ul, .wwFormTable td.rightTd li {
+  display:inline;
+}
+
+.yui-classroom .wwFormTable td.rightTd ul, .yui-classroom .wwFormTable td.rightTd li {
+  display: block;
+  margin:0;
+  padding:0;
+}
+
+.subfamily .wwFormTable td.rightTd li {
+  display: block;
+}
+
+td.autoRenewMsg {
+  background-color: #ebebeb;
+  text-align: center;
+  font-size: 11px;
+  color: #888887;
+  border-top: 0px;
+  border-left: 3px solid #e4e4e4;
+  border-right: 3px solid #e4e4e4;
+  border-bottom: 3px solid #e4e4e4;
+}
+
+/* Different colors for school tables */
+.yui-signuptrial .wwFormTable td, .yui-classroom .wwFormTable td {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.yui-signuptrial .wwFormTable .leftLabel label, .yui-classroom .wwFormTable .leftLabel label {
+  margin-left: 1em;
+}
+
+.yui-signuptrial form#reqQuote .wwFormTable .rightTd textarea,
+.yui-signuptrial .wwFormTable .rightTd input, .yui-signuptrial .wwFormTable .rightTd select,
+  .yui-classroom .wwFormTable .rightTd input, .yui-classroom .wwFormTable .rightTd select {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+
+.yui-signuptrial .wwFormTable td#commentLabel,
+#quote .wwFormTable td#commentLabel,
+#quote .wwFormTable td#subjectsLabel,
+#requestdemo .wwFormTable td#commentLabel
+{
+  vertical-align:top;
+}
+
+.yui-signuptrial .wwFormTable td.rightTd-last, .yui-classroom .wwFormTable td.rightTd-last {
+  border-bottom-color:#cdd8ae;
+  border-bottom-width: 3px;
+  vertical-align: top;
+}
+
+.yui-signuptrial .leftLabel-last div, .yui-classroom .leftLabel-last div {
+  font-size: 9px;
+  margin-left: 1.5em;
+  font-weight: normal;
+}
+
+.yui-classroom .localPrice, .yui-classroom .price {
+  float: left;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.yui-classroom .wwFormTable .botTd .price {
+  margin-left: 0em;
+  margin-right: .5em;
+}
+
+.yui-classroom .wwFormTable .botTd .localPrice {
+  margin-left: 0em;
+  margin-right: 0em;
+}
+
+#submitRequestRenewal .wwFormTable td.rightTd {
+  width: 37%;
+}
+
+#submitRequestRenewal .wwFormTable td.rightTd input,
+#submitRequestRenewal .wwFormTable td.rightTd select
+{
+  width: 330px;
+}
+
+.localPrice {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.yui-familysubscribe .localPrice {
+  font-size: 9px;
+  font-style: normal;
+  padding: 5px 0;
+}
+
+.yui-signuptrial .leftLabel div {
+  font-size: 9px;
+  margin-left: 1.5em;
+  font-weight: normal;
+}
+
+.ccTypes {
+  margin-right:5px;
+}
+
+#ccTypeMap img {
+  background-image: url(../images/ccLogoSprite.png);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 34px;
+  margin: 0 3px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+img.Visa {
+  background-position: 0 0;
+}
+img.Mastercard {
+  background-position: 0 -40px;
+}
+img.Discover {
+  background-position: 0 -80px;
+}
+img.American_Express {
+  background-position: 0 -120px;
+}
+
+.subscButton {
+  float:right;
+  margin: 20px 0 20px 10px;
+}
+
+#secImg {
+  float:right;
+  margin: 35px 0 5px 5px;
+}
+
+#secSpan {
+  float:right;
+  margin: 40px 0 5px 5px;
+}
+
+.hiddendiv {
+  visibility:hidden;
+}
+
+#loginlink {
+  margin-top:100px;
+  float:left;
+}
+
+#errorHeader {
+  margin: 20px 0;
+}
+
+#waitpanel {
+  background-color:#FFFFFF;
+  border:none;
+}
+
+.yui-wait {
+  padding:60px;
+  text-align:center;
+}
+
+#loadingSpan {
+  padding:2px 0 0 20px;
+  color:#545454;
+  font-weight:bold;
+  background: transparent url(../../images/loading.gif) left center no-repeat;
+}
+
+.quoteCheck {
+  margin-right:2px;
+}
+
+.quoteCheck, .quoteSelect {
+  margin-top:2px;
+}
+
+.subscheading .planType {
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 8px;
+  margin-top: -8px;
+  width: 78px;
+  height: 45px;
+  background-repeat: no-repeat;
+}
+
+.subscheading .Monthly {
+  background-image: url(../images/getmonthly_small_vs1.png);
+}
+
+.subscheading .Yearly {
+  background-image: url(../images/getyearly_small_vs1.png);
+}
+
+.confirmation .subscheading .confirm {
+  margin-left: 95px;
+}
+
+.subscheading img {
+  vertical-align: middle;
+}
+
+.bodyHelpLink {
+  float:right;
+  margin-right:10px;
+  font-weight:bold;
+  margin-bottom: -16px;
+  font-size: 13px;
+}
+
+.receiptLink {
+  white-space:nowrap;
+}
+
+.receiptLink a {
+  color:#6E9407;
+  font-size:12px;
+}
+
+.receiptLink img {
+  margin-bottom: -2px;
+}
+
+#rateTable {
+  width:100%;
+  margin:5px 0;
+  text-align:left;
+}
+
+#rateTable th {
+  background-color:#90BD18;
+  color:#FFFFFF;
+  font-weight:bold;
+  padding:10px;
+  border:solid 2px #90BD18;
+  border-right-color:#FCFAE5;
+}
+
+#rateTable td {
+  background-color:#FCFAE5;
+  padding:10px;
+  border:solid 2px #ADDE2D;
+}
+
+#rateTable tr.last td {
+  border-bottom-color: #90BD18;
+}
+
+#rateTable td.leftTd {
+  background-color:#ADDE2D;
+  color:#FFFFFF;
+  font-weight:bold;
+  border:solid 2px #90BD18;
+  border-bottom-color:#FCFAE5;
+}
+
+#rateTable td.rightTd {
+  border-right-color:#90BD18;
+}
+
+.footernote {
+  margin:20px 0;
+  font-weight:bold;
+}
+
+.footernote p {
+  color: #729107;
+}
+
+.footernote p span {
+  color: black;
+  font-weight: normal;
+}
+
+#secCodeHelp {
+  cursor:pointer;
+}
+
+.yui-tt {
+  background-color:#FEFAD4;
+  text-align: left;
+}
+
+#secCodeTt .bd {
+  padding:0;
+}
+
+#secCodeDiv {
+  background-color:#FEFAD4;
+  width:285px;
+  padding:5px;
+}
+
+#secCodeDiv.withDiscover {
+  width: 360px;
+}
+
+.secCodeImg {
+  background: url(../../images/secCode1_vs1.png) no-repeat 0 0;
+  color:#6D8E15;
+  display: inline-block;
+  font-size:14px;
+  font-weight:bold;
+  margin-right: 15px;
+  padding: 102px 10px 5px 0;
+  text-align:center;
+  vertical-align: top;
+  width: 95px;
+
+  *display: inline;
+  *zoom:1;
+}
+
+#secCodeVisaMC {
+  background-position: 0 0;
+}
+
+#secCodeDiscover {
+  background-position: -110px 0;
+}
+
+#secCodeAmex {
+  background-position: -220px 0;
+}
+
+
+
+#signintrial td {
+  padding:3px;
+}
+
+#signintrial #username, #signintrial #password, #renewsignin #username, #renewsignin #password {
+  width:12em;
+}
+
+#removeChildrenForm table {
+  width:100%;
+  *width:95%;
+  overflow-x:hidden;
+  border-color:#92BB1D;
+  border-style:solid;
+  border-width:2px;
+  text-align:left;
+  white-space:nowrap;
+  margin-bottom:50px;
+}
+
+#removeChildrenForm table thead {
+  background-color:#9FCC27;
+  color:white;
+}
+
+#removeChildrenForm table thead th {
+  font-weight:bold;
+  border-right-color:#FCFAE5;
+  border-right-style:solid;
+  border-right-width:2px;
+}
+
+#removeChildrenForm table tbody td {
+  border-right-color:#9FCC27;
+  border-right-style:solid;
+  border-right-width:2px;
+  border-bottom-color:#9FCC27;
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+}
+
+#removeChildrenForm table tbody {
+  background-color:#FCFAE5;
+}
+
+#removeChildrenForm table td, #removeChildrenForm table th {
+  padding:5px 20px 5px 5px;
+}
+
+#removeChildrenForm .removed td {
+  background-color: #DDDDDD;
+}
+
+label.removeChild {
+  background: transparent url(../../roster/images/delete.gif) no-repeat bottom left;
+  cursor: pointer;
+  display: block;
+  height: 19px;
+  width: 19px;
+}
+
+.removed label.removeChild {
+  background-image: url(../../roster/images/undelete.gif);
+}
+
+.disable_remove label.removeChild {
+  background-image: url(../../roster/images/disabled_delete_vs1.png);
+}
+
+label.removeChild .inputCheckbox {
+  border: none;
+  height: 17px;
+  visibility: hidden;
+}
+
+#applyCouponBtn {
+  background: #E0F3A1 url(../images/apply_coupon.png) no-repeat;
+  border: none;
+  color: #72920D;
+  cursor: pointer;
+  font: bold 12px Verdana, arial, helvetica, clean, sans-serif;
+  height: 20px;
+  padding-bottom: 2px;
+  text-indent: 10px;
+  width: 82px;
+}
+
+#applyCouponBtn:active {
+  -ms-background-position-x: 1px;
+  -ms-background-position-y: 1px;
+}
+
+#renewalMessage {
+  font-style: italic;
+  line-height: 35px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.readOnly input {
+  background-color: #EEEEEE;
+  font-style: italic;
+}
+
+.readOnly #applyCouponSpan {
+  display: none;
+}
+
+#couponAppliedMsg {
+  display: none;
+  font-size: 13px;
+  *font-size:12px;
+  font-style: italic;
+}
+
+.readOnly #couponAppliedMsg {
+  display: inline;
+}
+
+/* New styles for the new family subscription flow */
+.subfamily #reasonsToJoin {
+  background: #FFF5CE url(../../images/marketing-gradient.png) repeat-x 0 0;
+  width: 285px;
+  float: right;
+  margin-top: 42px;
+}
+
+.subfamily #reasonsToJoin.renew {
+  margin-top: 58px;
+}
+
+.subfamily #reasonsToJoin div {
+  padding: 20px;
+}
+
+.subfamily #reasonsToJoin h3 {
+  color: #6e9407;
+  font-size: 30px;
+}
+.subfamily #reasonsToJoin h4 {
+  color: #6e9407;
+  font-size: 24px;
+}
+.subfamily #reasonsToJoin h5 {
+  color: #6e9407;
+  font-size: 14px;
+  font-weight: bold;
+  border-top: 3px solid #ddedb2;
+  padding: 15px 0;
+}
+
+.subfamily #reasonsToJoin th,
+.subfamily #reasonsToJoin td {
+  padding: 0 30px 5px 0;
+}
+
+.subfamily #reasonsToJoin ul {
+  list-style-image: none;
+  padding: 20px 0;
+  margin: 0px;
+}
+.subfamily #reasonsToJoin li {
+  background-image: url('../../images/bullet.png');
+  background-repeat: no-repeat;
+  background-position: 0 6px;
+  padding: 2px 0 2px 20px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.subfamily #reasonsToJoin #guarantee {
+  line-height:18px;
+  padding:0 0 20px 0;
+}
+
+.subfamily #familyProgress {
+  border: 1px solid #eaf7c7;
+  font-size: 18px;
+  height: 46px;
+  margin: 15px 0;
+}
+
+.subfamily #familyProgress h3 {
+  background: #fff;
+  color: #b6d288;
+  float: left;
+  line-height: 46px;
+  text-align: center;
+  width: 33%;
+}
+
+.subfamily #familyProgress.familysubscribe h3#step1,
+.subfamily #familyProgress.familysetup h3#step2,
+.subfamily #familyProgress.usernameSuggestions h3#step2,
+.subfamily #familyProgress.confirmation h3#step3 {
+  background: #eaf7c7;
+  color: #83a054;
+}
+
+.subfamily #familyProgress.familysubscribe h3#step2,
+.subfamily #familyProgress.familysetup h3#step3,
+.subfamily #familyProgress.usernameSuggestions h3#step3 {
+  background: transparent url(../../images/arrow-green.png) no-repeat 0 0;
+}
+
+.subfamily #familyProgress.familysetup h3#step2,
+.subfamily #familyProgress.usernameSuggestions h3#step2,
+.subfamily #familyProgress.confirmation h3#step3 {
+  background: #eaf7c7 url(../../images/arrow-white.png) no-repeat 0 0;
+  width: 34%;
+}
+
+.subfamily #suggestedEditionRenewalPrice {
+  color: #6E9407;
+  font-size: 12px;
+}
+
+#activateTable.wwFormTable td.leftLabel {
+  line-height: 20px;
+  vertical-align: top;
+  width: 224px;
+}
+
+#activateTable.wwFormTable td.rightTd {
+  width: 314px;
+}
+
+.organizationName,
+.organizationAddress {
+  color: #6d6d6d;
+  font-size: 11px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.organizationName {
+  font-weight: bold;
+}
+
+#activateTable #teacherSubjects .rightTd input {
+  width: auto;
+  vertical-align:middle;
+}
+
+#activateTable #teacherSubjects td label {
+  margin-right: 13px;
+  vertical-align:middle;
+}
+
+#activateTable .rightTd input,
+#activateTable table.usernameTable td input {
+  width: 93%;
+}
+
+#activateTable .rightTd select {
+  width: 94%;
+}
+
+#activateTable.wwFormTable table.usernameTable {
+  width: 100%;
+  border:none;
+}
+
+#activateTable.wwFormTable table.usernameTable td {
+  border: medium none;
+  width: inherit;
+  padding: 0px;
+}
+
+#activateTable.wwFormTable table.usernameTable td.domain span {
+  padding-right: 13px;
+}
+#activateTable.wwFormTable table.usernameTable td.domain {
+  text-align:right;
+}
+
+#activateTable.wwFormTable table.usernameTable td.username {
+  width: 100%;
+}
+
+.button-right {
+  float: right;
+  width: 30%;
+}
+
+.button-right .subscButton {
+  margin-top: 8px;
+}
+
+div.page-content {
+  display: inline-block;
+  width: 700px;
+  vertical-align: top;
+}
+
+.page-content .form-section {
+  padding: 10px 0;
+}
+
+.page-content .form-section .form-section-header {
+  width: 150px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.page-content .form-section .input,
+.page-content .quote-section {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.page-content .input.select-products .error-message {
+  display: none;
+}
+.page-content .input.select-products .error-message.show-error {
+  display: block;
+}
+
+div.page-aside {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+div.membershipContainer {
+  position: relative;
+}
+
+
+div.membershipContainer .wwFormContainer {
+  height: 124px;
+  width: 660px;
+  float: left;
+}
+
+
+div.membershipContainer .teacherInfo {
+  width: 200px;
+  height: 169px;
+  float: left;
+  margin-left: 10px;
+  padding: 10px 10px 0px 25px;
+  background:transparent url(../../membership/images/membershipSignup_ClassroomBox.png) no-repeat 0 0;
+}
+
+div.membershipContainer .continueButtonContainer {
+  text-align: right;
+  margin-top: 15px;
+}
+
+div.membershipContainer .teacherInfo {
+  font-size: 12px;
+}
+div.membershipContainer .teacherInfo h4 {
+  color: #6e9407;
+  padding: 5px 0 5px 0;
+  font-weight: bold;
+}
+
+div.membershipContainer .teacherInfo h4.spaceAbove {
+  margin-top: 20px;
+}
+
+div.membershipContainer .teacherInfo table td.label {
+  width: 55px;
+  height: 18px;
+}
+
+div.membershipContainer .higherPrices i {
+  font:italic 12px Verdana, arial, helvetica, clean, sans-serif;
+}
+
+div.membershipContainer #firstWWRow {
+  height: 65px;
+}
+
+div.membershipContainer #secondWWRow {
+  height: 35px;
+}
+
+div.membershipContainer #thirdWWRow {
+  height: 66px;
+}
+
+label.flag {
+  background:transparent url(../../navigation/images/csd-flags-sprite.png) no-repeat 0 0;
+  padding-left:35px;
+}
+
+label#us.flag {
+  background-position:0 -25px;
+}
+
+label#za.flag {
+  background-position:0 -50px;
+}
+
+label#nz.flag {
+  background-position:0 -75px;
+}
+
+label#ie.flag {
+  background-position:0 -100px;
+}
+
+label#ca.flag {
+  background-position:0 -125px;
+}
+
+label#uk.flag {
+  background-position:0 -150px;
+}
+
+label#eu.flag {
+  background-position:0 -175px;
+}
+
+label#sg.flag {
+  background-position:0 -200px;
+}
+
+label#in.flag {
+  background-position:0 -225px;
+}
+
+#trial #editionHelp {
+  padding: 0 5px;
+}
+
+#editionTt {
+  font-size: 11px;
+}
+
+#editionTt .bd div {
+  padding: 5px;
+}
+
+.priceNoWrap {
+  white-space:nowrap;
+}
+
+#submitRequestRenewal tr.checkbox td.rightTd input {
+  width: auto;
+  margin-right: 0;
+}
+#submitRequestRenewal tr.checkbox td.rightTd label {
+  padding-left: 5px;
+}
+
+#submitRequestRenewal td.rightTd {
+  padding-right: .5em;
+  padding-left: .5em;
+}
+
+#submitRequestRenewal td.rightTd select,
+#submitRequestRenewal td.rightTd input
+{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+
+#submitRequestRenewal #comments {
+  width: 695px;
+}
+
+.phoneNumber .formFinePrintLabel {
+  display:inline-block;
+}
+
+/* =============================================================================================
+   Styles for the subject-option boxes
+   ============================================================================================= */
+
+.subject-option {
+  border: #cdd8ae solid 3px !important;
+  text-align: center;
+  vertical-align: top;
+  padding: 0px !important;
+}
+
+.subject-option-price {
+  display: inline-block;
+  width: 183px;
+}
+
+/* Make label a block, so you can click the whole subject-option div to select. */
+.subject-option label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.subject-option[data-subject-option=MATH] label{
+  background: #fff2c6;
+  color: #e36000;
+  border: #fff2c6 solid 3px;
+}
+
+.subject-option[data-subject-option=MATH] label.selected {
+  border-color: #f17113;
+}
+
+.subject-option[data-subject-option=LANGUAGE_ARTS] label {
+  background: #e6f4fa;
+  color: #0e6587;
+  border: #e6f4fa solid 3px;
+}
+
+.subject-option[data-subject-option=LANGUAGE_ARTS] label.selected {
+  border-color: #177296;
+}
+
+.subject-option[data-subject-option=MATH_AND_LANGUAGE_ARTS] label {
+  background: #f4fae6;
+  color: #597112;
+  border: #f4fae6 solid 3px;
+}
+
+.subject-option[data-subject-option=MATH_AND_LANGUAGE_ARTS] label.selected {
+  border-color: #698419;
+}
+
+.priceQuote {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.perPayPeriod {
+  font-size: 10px;
+}
+
+.subject-option-type {
+  font-size: 14px;
+  position: relative;
+  top: 1px;
+}
+
+.subject-option-grades {
+  font-size: 10px;
+  text-transform:capitalize;
+}
+table.subjectsTable,
+table.subjectsTable td {
+  border-style: none;
+}
+
+table.subjectsTable td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+tr.teacherSubjects td.rightTd {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.box-email-consent {
+  box-sizing: border-box;
+  position: relative;
+  margin: 20px 0 0 0;
+  padding: 0 0 0 2em;
+  width: 600px;
+}
+
+.input-email-consent {
+  left: 5px;
+  position: absolute;
+  top: 0.25em;
+}
+
+

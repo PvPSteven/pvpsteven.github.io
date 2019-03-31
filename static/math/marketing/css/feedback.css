@@ -1,0 +1,245 @@
+.yui-t7 #yui-main .yui-feedback {
+  margin: 30px;
+  width: 83%;
+}
+
+.yui-feedback h1 {
+  color: #00ADEF;
+  font: normal 48px "Trebuchet MS", verdana, sans-serif;
+  margin: 30px 0 20px 0;
+}
+
+.yui-feedback h2 {
+  color: #678A0A;
+  font: normal 24px "Trebuchet MS", verdana, sans-serif;
+  padding: 15px 0;
+}
+
+.yui-feedback h2 span {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.yui-feedback p, .yui-feedback ul {
+  margin:10px 0;
+}
+
+.yui-feedback textarea {
+  width:100%;
+  *width:99%;
+}
+
+#siteName, #mediaName, #confName, #otherName {
+  margin-left: 1.5em;
+  *margin-left: 2em;
+  width:95%;
+  *width:92.5%;
+}
+
+.largeArea {
+  height:150px;
+}
+
+.yui-feedback .yui-u select {
+  width: 100%;
+}
+
+.yui-feedback table {
+  width: 100%;
+}
+
+.yui-feedback td {
+  padding:5px;
+}
+
+.yui-feedback .feedbackButtons {
+  text-align:right;
+}
+
+.yui-feedback a {
+  font-weight:bolder;
+  color:#006A99;
+}
+
+.yui-feedback a:hover {
+  color: #003D5F;
+}
+
+.yui-feedback .email-link {
+  color: #00659e;
+  font-weight: normal;
+}
+
+.yui-feedback h3 {
+  color:#FF6000;
+  font-weight:bold;
+}
+
+.yui-feedback .fieldTable {
+  margin-bottom: 15px;
+}
+
+.yui-feedback .fieldTable td {
+  border-style:solid;
+  border-width:2px;
+  padding:5px 10px 5px;
+  vertical-align:top;
+}
+
+.yui-feedback .fieldTable .noBorders {
+  margin-bottom:5px;
+}
+
+.yui-feedback .fieldTable .noBorders td {
+  border:none 0;
+  padding:6px 0 0 10px;
+}
+
+.yui-feedback .fieldTable .noBorders .rightTd {
+  width:50%;
+  *width:45%;
+}
+
+.yui-feedback .fieldTable .noBorders .rightTd input,
+  .yui-feedback .fieldTable .noBorders .rightTd textarea {
+  width:95%;
+}
+
+.yui-feedback .fieldTable .noBorders input {
+  width:auto;
+}
+
+.yui-feedback .fieldTable td.leftTd {
+  background-color:#E0F3A1;
+  border-color:#92BB1D #92BB1D #FCFAE5 #92BB1D;
+  color:#678A0A;
+  font-weight:bold;
+  width: 34%;
+  *width:35%;
+}
+
+.yui-feedback .if-applicable {
+  font-size:10px;
+}
+
+.yui-feedback #maintable td.leftTd {
+  width: 23%;
+  *width:28%;
+}
+
+.yui-feedback .fieldTable td.lastTd {
+  border-bottom-color:#92BB1D;
+}
+
+.yui-feedback .fieldTable td.rightTd {
+  background-color:#FCFAE5;
+  border-color:#92BB1D;
+}
+
+.yui-feedback .fieldTable input {
+  width:98%;
+}
+
+.yui-feedback .fieldTable input[type=radio] {
+  width: auto;
+}
+
+.yui-feedback .feedbackQ {
+  margin:35px 0;
+}
+
+.yui-feedback .feedbackQ li {
+  list-style-image: url("../images/listbullet_vs1.png");
+  margin-left:25px;
+}
+
+.yui-feedback .feedbackQ textarea {
+  padding:4px 0;
+  width:99%;
+}
+
+.yui-feedback div.sFormElements {
+  display: none;
+}
+
+.yui-feedback table td {
+  vertical-align:top;
+}
+
+.yui-feedback .small-textarea {
+  height: 40px;
+}
+
+/**
+ * Coming Soon page
+ */
+.yui-comingsoon h2.sectionHdr {
+  margin-bottom:1.5em;
+}
+
+.yui-comingsoon p {
+  margin:0 1.25em 2em 0;
+}
+
+.yui-comingsoon #advTopicImg {
+  float:right;
+  margin:1em 3em 1em 2em;
+}
+
+.yui-comingsoon #advTopicIntImg {
+  float:right;
+  margin:0 3em 0 2em;
+}
+
+.yui-comingsoon #tellUsBox {
+  float:left;
+  margin:0 3em 3em 2em;
+}
+
+.yui-comingsoon #languageArtsImg {
+  float:left;
+  margin:1em 3em 1em 2em;
+}
+
+.yui-comingsoon p.beforeLanguageArts {
+  margin-bottom:36px;
+}
+
+.yui-comingsoon select,
+.yui-comingsoon input {
+  margin:7px 6px 5px 0;
+  _margin:5px 2px 5px 0;
+  vertical-align:top;
+}
+
+.yui-comingsoon input {
+  width:240px;
+  _width:230px;
+}
+
+.csd-us .yui-comingsoon input {
+  _margin-right:5px;
+}
+
+.yui-comingsoon #emailAjaxMsg {
+  height:50px;
+  margin:0;
+  width:500px;
+  _width:490px;
+}
+
+.csd-us .yui-comingsoon #emailAjaxMsg {
+  height:35px;
+}
+
+.yui-comingsoon #emailAjaxMsg .errorMessage,
+.yui-comingsoon #emailAjaxMsg .noticesuccess {
+  position:relative;
+}
+
+.yui-comingsoon #emailAjaxMsg ul li {
+  float:left;
+  padding:2px 0 0 0;
+  width:250px;
+  _width:245px;
+}

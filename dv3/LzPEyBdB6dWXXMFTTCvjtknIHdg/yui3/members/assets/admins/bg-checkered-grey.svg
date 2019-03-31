@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="484" viewBox="0 0 1920 484">
+    <defs>
+        <path id="a" d="M0 0h1920v484H0z"/>
+        <path id="c" d="M0 0h1934v1128H0z"/>
+        <linearGradient id="e" x1="75.13%" x2="24.871%" y1="-24.616%" y2="124.614%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="50%" stop-color="#939598"/>
+            <stop offset="60%" stop-color="#9EA0A3"/>
+            <stop offset="77%" stop-color="#BBBDBF"/>
+            <stop offset="98%" stop-color="#E6E7E8"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#a"/>
+        <g mask="url(#b)" opacity=".526">
+            <g transform="translate(-1 -398)">
+                <mask id="d" fill="#fff">
+                    <use xlink:href="#c"/>
+                </mask>
+                <g fill-rule="nonzero" mask="url(#d)">
+                    <path fill="url(#e)" d="M411.282 510.389H2345.59v1127.873H411.282z" transform="translate(-411 -511)"/>
+                    <g fill="#FFF">
+                        <g style="mix-blend-mode:overlay">
+                            <path d="M290.891 510.51L788.986 97.13l405.142 488.168-498.096 413.38z" opacity=".39" style="mix-blend-mode:overlay"/>
+                            <path d="M398.432 519.41L777.93 204.455l308.686 371.946-379.498 314.953z" opacity=".46" style="mix-blend-mode:overlay"/>
+                        </g>
+                        <g opacity=".72" style="mix-blend-mode:overlay">
+                            <path d="M636.675 537.835l498.412-414.264 406.009 488.479-498.413 414.265z" opacity=".39" style="mix-blend-mode:overlay"/>
+                            <path d="M742.574 547.975l379.499-314.954 308.686 371.946-379.499 314.954z" opacity=".46" style="mix-blend-mode:overlay"/>
+                        </g>
+                        <g style="mix-blend-mode:overlay">
+                            <path d="M56.806 1119.3l498.412-414.265 406.009 488.479-498.412 414.264z" opacity=".39" style="mix-blend-mode:overlay"/>
+                            <path d="M162.196 1128.363l379.498-314.954 308.686 371.946-379.498 314.954z" opacity=".46" style="mix-blend-mode:overlay"/>
+                        </g>
+                        <g opacity=".72" style="mix-blend-mode:overlay">
+                            <path d="M398.813 1148.015l498.095-413.38 405.142 488.17-498.095 413.379z" opacity=".39" style="mix-blend-mode:overlay"/>
+                            <path d="M506.353 1156.915L885.851 841.96l308.686 371.946-379.498 314.954z" opacity=".46" style="mix-blend-mode:overlay"/>
+                        </g>
+                        <g style="mix-blend-mode:overlay">
+                            <path d="M993.4 968.513l498.412-414.265 406.008 488.48-498.412 414.264z" opacity=".39" style="mix-blend-mode:overlay"/>
+                            <path d="M1098.535 978.928l379.498-314.954 308.686 371.946-379.498 314.954z" opacity=".46" style="mix-blend-mode:overlay"/>
+                        </g>
+                        <g opacity=".72" style="mix-blend-mode:overlay">
+                            <path d="M1337.762 996.618l498.412-414.265 406.009 488.48-498.412 414.264z" opacity=".39" style="mix-blend-mode:overlay"/>
+                            <path d="M1442.678 1007.473l379.498-314.953 308.686 371.946-379.498 314.953z" opacity=".46" style="mix-blend-mode:overlay"/>
+                        </g>
+                        <path d="M871.075-68.164l498.096-413.38L1774.312 6.625l-498.095 413.38z" opacity=".39" style="mix-blend-mode:overlay"/>
+                        <g>
+                            <g style="mix-blend-mode:overlay">
+                                <path d="M-410.9 52.824l498.095-413.38 405.141 488.169-498.095 413.38z" opacity=".39" style="mix-blend-mode:overlay"/>
+                                <path d="M-303.388 61.721L76.11-253.233l308.686 371.947L5.298 433.667z" opacity=".46" style="mix-blend-mode:overlay"/>
+                            </g>
+                            <g opacity=".72" style="mix-blend-mode:overlay">
+                                <path d="M-66.758 81.39l498.095-413.38L836.48 156.178l-498.095 413.38z" opacity=".39" style="mix-blend-mode:overlay"/>
+                                <path d="M40.782 90.289l379.499-314.954 308.686 371.946-379.499 314.954z" opacity=".46" style="mix-blend-mode:overlay"/>
+                            </g>
+                        </g>
+                        <g>
+                            <g style="mix-blend-mode:overlay">
+                                <path d="M-303.092 689.482l498.095-413.38 405.141 488.169-498.095 413.38z" opacity=".39" style="mix-blend-mode:overlay"/>
+                                <path d="M-195.568 698.395L183.93 383.44l308.686 371.946-379.498 314.954z" opacity=".46" style="mix-blend-mode:overlay"/>
+                            </g>
+                            <g opacity=".72" style="mix-blend-mode:overlay">
+                                <path d="M41.062 718.063l498.096-413.38 405.141 488.169-498.095 413.38z" opacity=".39" style="mix-blend-mode:overlay"/>
+                                <path d="M148.587 726.975l379.499-314.954 308.686 371.947-379.499 314.953z" opacity=".46" style="mix-blend-mode:overlay"/>
+                            </g>
+                        </g>
+                        <g>
+                            <g style="mix-blend-mode:overlay">
+                                <path d="M1180.277 303.814l498.095-413.38 405.142 488.169-498.096 413.38z" opacity=".39" style="mix-blend-mode:overlay"/>
+                                <path d="M1287.789 312.711L1667.287-2.242l308.686 371.946-379.498 314.954z" opacity=".46" style="mix-blend-mode:overlay"/>
+                            </g>
+                            <g opacity=".72" style="mix-blend-mode:overlay">
+                                <path d="M1524.398 332.36l498.096-413.38 405.141 488.168-498.095 413.38z" opacity=".39" style="mix-blend-mode:overlay"/>
+                                <path d="M1631.924 341.272l379.498-314.954 308.686 371.946-379.498 314.954z" opacity=".46" style="mix-blend-mode:overlay"/>
+                            </g>
+                        </g>
+                    </g>
+                    <g fill="#FFF" style="mix-blend-mode:soft-light">
+                        <g style="mix-blend-mode:overlay">
+                            <path d="M1492.28 511.272l-365.172 303.064-293.907-354.139 365.172-303.063z" opacity=".39" style="mix-blend-mode:overlay"/>
+                            <path d="M1412.015 506.699l-278.412 231.407L909.19 468.107 1187.6 236.7z" opacity=".46" style="mix-blend-mode:overlay"/>
+                        </g>
+                        <g opacity=".72" style="mix-blend-mode:overlay">
+                            <path d="M1241.147 491.763L875.976 794.826 582.069 440.688 947.24 137.625z" opacity=".39" style="mix-blend-mode:overlay"/>
+                            <path d="M1162.686 485.688L884.45 716.602 660.514 446.775 938.75 215.86z" opacity=".46" style="mix-blend-mode:overlay"/>
+                        </g>
+                        <g style="mix-blend-mode:overlay">
+                            <path d="M982.941 179.104L617.77 482.167 323.863 128.03l365.171-303.063z" opacity=".39" style="mix-blend-mode:overlay"/>
+                            <path d="M904.467 173.014L626.231 403.928 402.295 134.101 680.531-96.813z" opacity=".46" style="mix-blend-mode:overlay"/>
+                        </g>
+                        <path d="M731.776 159.6L366.605 462.663 72.698 108.525 437.869-194.54z" opacity=".39" style="mix-blend-mode:overlay"/>
+                        <g style="mix-blend-mode:overlay">
+                            <path d="M1317.64 954.604L952.47 1257.668 658.562 903.529l365.171-303.063z" opacity=".39" style="mix-blend-mode:overlay"/>
+                            <path d="M1239.194 948.517L960.96 1179.43 737.023 909.603l278.236-230.914z" opacity=".46" style="mix-blend-mode:overlay"/>
+                        </g>
+                        <g opacity=".72" style="mix-blend-mode:overlay">
+                            <path d="M1066.523 935.082l-365.171 303.064-293.907-354.138 365.171-303.064z" opacity=".39" style="mix-blend-mode:overlay"/>
+                            <path d="M988.062 929.009l-278.236 230.913-223.935-269.827 278.235-230.914z" opacity=".46" style="mix-blend-mode:overlay"/>
+                        </g>
+                        <g>
+                            <g style="mix-blend-mode:overlay">
+                                <path d="M2002.862 842.109l-365.172 303.063-293.907-354.138 365.172-303.063z" opacity=".39" style="mix-blend-mode:overlay"/>
+                                <path d="M1924.4 836.035l-278.235 230.914-223.936-269.827 278.236-230.914z" opacity=".46" style="mix-blend-mode:overlay"/>
+                            </g>
+                            <g opacity=".72" style="mix-blend-mode:overlay">
+                                <path d="M1751.745 822.587l-365.172 303.063-293.907-354.138 365.172-303.063z" opacity=".39" style="mix-blend-mode:overlay"/>
+                                <path d="M1673.284 816.513l-278.236 230.914L1171.112 777.6l278.236-230.914z" opacity=".46" style="mix-blend-mode:overlay"/>
+                            </g>
+                        </g>
+                        <g>
+                            <g style="mix-blend-mode:overlay">
+                                <path d="M1926.59 378.637L1561.42 681.7l-293.907-354.138 365.172-303.064z" opacity=".39" style="mix-blend-mode:overlay"/>
+                                <path d="M1848.144 372.55l-278.236 230.914-223.936-269.828 278.236-230.914z" opacity=".46" style="mix-blend-mode:overlay"/>
+                            </g>
+                            <g opacity=".72" style="mix-blend-mode:overlay">
+                                <path d="M1675.473 359.115l-365.171 303.063-293.907-354.138L1381.566 4.977z" opacity=".39" style="mix-blend-mode:overlay"/>
+                                <path d="M1596.998 353.024l-278.236 230.914-223.935-269.827 278.236-230.914z" opacity=".46" style="mix-blend-mode:overlay"/>
+                            </g>
+                        </g>
+                        <g>
+                            <g style="mix-blend-mode:overlay">
+                                <path d="M842.221 665.225L477.05 968.288 183.143 614.15l365.171-303.063z" opacity=".39" style="mix-blend-mode:overlay"/>
+                                <path d="M763.775 659.137L485.54 890.051 261.604 620.224 539.84 389.31z" opacity=".46" style="mix-blend-mode:overlay"/>
+                            </g>
+                            <g opacity=".72" style="mix-blend-mode:overlay">
+                                <path d="M591.104 645.703L225.932 948.766-67.974 594.628l365.171-303.063z" opacity=".39" style="mix-blend-mode:overlay"/>
+                                <path d="M512.642 639.629L234.406 870.542 10.471 600.715l278.236-230.914z" opacity=".46" style="mix-blend-mode:overlay"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

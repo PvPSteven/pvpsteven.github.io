@@ -1,0 +1,1097 @@
+/*************************************************************************************************
+ *                                    Breadcrumbs                                                *
+ *************************************************************************************************/
+
+#practice-breadcrumbs, a.breadcrumb, .home-breadcrumb img {
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: url("../../../ixl/practice/images/breadcrumbSprite2.png");
+  background-repeat: no-repeat;
+}
+
+#practice-breadcrumbs {
+  background-color: #F2F2F2;
+  background-position: right -101px;
+  font-size: 12px;
+  height: 29px;
+  line-height: 29px;
+  margin-right: 15px;
+  padding-left: 5px;
+}
+
+.breadcrumb {
+  display: inline-block;
+  padding-left: 5px;
+
+  *display: inline;
+  *zoom:1;
+}
+
+a.breadcrumb {
+  background-position: right -54px;
+  color: #7aa20d;
+  font-weight: bold;
+  padding-right: 14px;
+  text-decoration: none;
+}
+
+.home-breadcrumb {
+  vertical-align: top;
+}
+
+.home-breadcrumb img {
+  background-position: 0 -7px;
+  height: 29px;
+  width: 21px;
+  vertical-align: top;
+}
+
+h1.breadcrumb {
+  color: #838383;
+}
+
+/*************************************************************************************************
+ *                                    Practice banner                                            *
+ *************************************************************************************************/
+.subject-banner {
+  height: 102px;
+  margin-right: 15px;
+}
+
+.subject-banner h1 {
+  background: #edfbc0;
+  border-top: 33px solid #fff;
+  color: #6e9407;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 58px;
+  text-indent: 10px
+}
+
+.subject-banner img {
+  float: left;
+}
+
+.ela-banner img {
+  margin-top: 22px;
+}
+
+.ela-banner h1 {
+  margin-left: 50px;
+}
+
+/*****************************************************************************
+ * Styles for the practice landing page and grade home page.
+ *****************************************************************************/
+p.description {
+  font-size: 108%;
+  margin: 0 0 1em .5em;
+}
+
+.gradeinfo {
+  background: #fff;
+  color: #5C6C1B;
+  padding: 10px;
+}
+
+.gradeinfo h2 {
+  color: inherit;
+  font-size: 15px;
+  margin-bottom: 1em;
+  font-weight: bold;
+  clear: both;
+  white-space: nowrap;
+  padding-top: 5px;
+}
+
+.gradeinfo h2 a, .gradeinfo h2 a:hover {
+  color: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.gradeinfo h4 {
+  margin: -10px 0 15px;
+}
+
+.gradeinfo h4 a.arrowLink,
+.gradeinfo h4 a.arrowLink:hover {
+  color: #56640d;
+  font-size: 8px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.gradeinfo h4 a.arrowLink em,
+.gradeinfo h4 a.arrowLink:hover em {
+  font-size: 11px;
+}
+
+.gradeinfo li {
+  margin: 0.5em 0 0.5em 8px;
+  clear: left;
+  _text-indent: -3px;
+}
+
+.gradeinfo li.hasIcon {
+  margin-left: 28px;
+}
+
+.gradeinfo li span {
+  white-space: nowrap;
+}
+
+.gradeinfo li a img {
+  padding: 0;
+}
+
+.gradeinfo li a.reportLink {
+  float: left;
+  margin-left: -26px;
+}
+
+.gradeinfo ul {
+  margin-bottom: 1em;
+  padding-bottom: 5px;
+}
+
+.gradeinfo .yui-u div.content {
+  padding: 5px 0;
+  min-height: 215px;
+  _height: 215px;
+}
+
+.gradeinfo h2.red a, .gradeinfo h2.red a:hover {
+  color: #cc011e;
+}
+
+.gradeinfo h2.blue1 a, .gradeinfo h2.blue1 a:hover {
+  color: #00a0d6;
+}
+
+.gradeinfo h2.pink1 a, .gradeinfo h2.pink1 a:hover {
+  color: #c65c9c;
+}
+
+.gradeinfo h2.green1 a, .gradeinfo h2.green1 a:hover {
+  color: #0fab46;
+}
+
+.gradeinfo h2.purple a, .gradeinfo h2.purple a:hover {
+  color: #7000d1;
+}
+
+.gradeinfo h2.orange a, .gradeinfo h2.orange a:hover {
+  color: #a77209;
+}
+
+.gradeinfo h2.pink2 a, .gradeinfo h2.pink2 a:hover {
+  color: #e7537d;
+}
+
+.gradeinfo h2.blue2 a, .gradeinfo h2.blue2 a:hover {
+  color: #00659E;
+}
+
+.gradeinfo h2.green2 a, .gradeinfo h2.green2 a:hover {
+  color: #699d24;
+}
+
+.gradeinfo h2.aqua a, .gradeinfo h2.aqua a:hover {
+  color: #526a66;
+}
+
+.gradeinfo h2.yellow a, .gradeinfo h2.yellow a:hover {
+  color: #98930a;
+}
+
+.gradeinfo h2.purple2 a, .gradeinfo h2.purple2 a:hover {
+  color: #2f2185;
+}
+
+div.moregrades .content {
+  background: #FFFBBD url(../images/comingSoonKids.html) no-repeat center bottom;
+  font-size: 15px;
+}
+
+div.moregradesBot .content {
+  background: #FFFBBD url(../images/comingSoonKidsLong.html) no-repeat left bottom;
+  padding: 30px 167px;
+}
+
+div.moregrades .nokids {
+  background-image: none;
+  padding: 10px;
+}
+
+.gradeinfo .moregrades div.content {
+  padding: 20px;
+}
+
+div.moregrades h2 {
+  color: #6a8f07;
+  font-weight: bold;
+  margin: 0 0 10px;
+  padding: 10px 0;
+}
+
+div.moregradesBot h2 {
+  padding: 0;
+}
+
+div.moregrades p {
+  color: #000;/*#5C6C1B;*/
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+div.moregrades .nokids h2,
+div.moregrades .nokids p {
+  margin: 10px;
+}
+
+/***********************************************/
+/* Generic styles for left nav header          */
+/***********************************************/
+
+.ltWrapper {
+  border-left: 1px solid #d1ec88;
+  border-right: 1px solid #d1ec88;
+  margin-left: 8px;
+  width: 204px;
+}
+
+.ltHeader {
+  height: 55px;
+  margin: 0 -1px;
+}
+
+.ltHeader a {
+  background: transparent url(../images/leftnav/header.html) no-repeat;
+  color: #506c03;
+  float: left;
+  font-size: 18px;
+  line-height: 55px;
+  text-align: center;
+  text-decoration: none;
+  width: 103px;
+}
+
+.ltHeader a:hover {
+  background-position: -224px 0;
+}
+
+.ltHeader a.selected, .ltHeader a.selected:hover {
+  font-weight: bold;
+  background-position: -112px 0;
+}
+
+
+/***********************************************/
+/* Generic styles for left nav header          */
+/***********************************************/
+
+.leftNav {
+  font-size: 93%;
+  margin: 6px 12px 0;
+}
+
+.leftNav .bd {
+  border-bottom: 4px solid;
+  height: 450px;
+  margin-bottom: 8px;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 197px;
+}
+
+#gradesNav .shell {
+  background: url(../images/leftnav/levelAll.html) no-repeat right top;
+  margin-bottom: 10px;
+}
+
+#gradesNav .shell .hd {
+  background-image: url( ../images/leftnav/levelAll.html);
+  /* Note, we aren't specifying the background-position */
+  background-repeat: no-repeat;
+  height: 35px;
+}
+
+#gradesNav.single .shell {
+  width: 197px;
+}
+
+#gradesNav.colorNav .shell .hd {
+  background-image: none;
+  border-left-style: solid;
+  border-left-width: 5px;
+}
+
+#topicsNav .shell {
+  margin-bottom: 10px;
+}
+
+#topicsNav .shell .hd {
+  background: url(../images/leftnav/topicAllShort.html) no-repeat -5px 0;
+}
+
+#topicsNav .tall .hd {
+  background-image: url(../images/leftnav/topicAllTall.html);
+}
+
+#topicsNav .shell .hd {
+  border-left-style: solid;
+  border-left-width: 5px;
+  height: 29px;
+}
+
+#topicsNav .tall .hd {
+  height: 36px;
+}
+
+.leftNav .hd a {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#gradesNav.leftNav .hd a {
+  color: #506c03;
+  line-height: 35px;
+  padding-left: 45px;
+}
+
+#gradesNav.colorNav .shell .hd a {
+  padding-left: 5px;
+}
+
+#topicsNav.leftNav .hd a {
+  color: #6e9407;
+  line-height: 29px;
+  padding-left: 5px;
+}
+
+#topicsNav.leftNav .tall .hd a {
+  line-height: 17px;
+  padding: 1px 0 1px 5px;
+}
+
+/***********************************************/
+/* Background positions for the header element */
+/***********************************************/
+
+.leftNav #level-a .hd {
+  background-position: 0 -45px;
+}
+
+.leftNav #level-a.selected, .leftNav #level-a.selected .hd {
+  background-image: url(../images/leftnav/levelA.html);
+}
+
+.leftNav #level-a.selected .hd a {
+  color: #80181f;
+}
+
+.leftNav #level-b .hd {
+  background-position: 0 -90px;
+}
+
+.leftNav #level-b.selected, .leftNav #level-b.selected .hd {
+  background-image: url(../images/leftnav/levelB.html);
+}
+
+.leftNav #level-b.selected .hd a {
+  color: #02427c;
+}
+
+.leftNav #level-c .hd {
+  background-position: 0 -135px;
+}
+
+.leftNav #level-c.selected, .leftNav #level-c.selected .hd {
+  background-image: url(../images/leftnav/levelC.html);
+}
+
+.leftNav #level-c.selected .hd a {
+  color: #a90969;
+}
+
+.leftNav #level-d .hd {
+  background-position: 0 -180px;
+}
+
+.leftNav #level-d.selected, .leftNav #level-d.selected .hd {
+  background-image: url(../images/leftnav/levelD.html);
+}
+
+.leftNav #level-d.selected .hd a {
+  color: #137216;
+}
+
+.leftNav #level-e .hd {
+  background-position: 0 -225px;
+}
+
+.leftNav #level-e.selected, .leftNav #level-e.selected .hd {
+  background-image: url(../images/leftnav/levelE.html);
+}
+
+.leftNav #level-e.selected .hd a {
+  color: #4c0687;
+}
+
+.leftNav #level-f .hd {
+  background-position: 0 -270px;
+}
+
+.leftNav #level-f.selected, .leftNav #level-f.selected .hd {
+  background-image: url(../images/leftnav/levelF.html);
+}
+
+.leftNav #level-f.selected .hd a {
+  color: #7a5901;
+}
+
+.leftNav #level-g .hd {
+  background-position: 0 -315px;
+}
+
+.leftNav #level-g.selected, .leftNav #level-g.selected .hd {
+  background-image: url(../images/leftnav/levelG.html);
+}
+
+.leftNav #level-g.selected .hd a {
+  color: #a20934;
+}
+
+.leftNav #level-h .hd {
+  background-position: 0 -360px;
+}
+
+.leftNav #level-h.selected, .leftNav #level-h.selected .hd {
+  background-image: url(../images/leftnav/levelH.html);
+}
+
+.leftNav #level-h.selected .hd a {
+  color: #034a72;
+}
+
+.leftNav #level-i .hd {
+  background-position: 0 -405px;
+}
+
+.leftNav #level-i.selected, .leftNav #level-i.selected .hd {
+  background-image: url(../images/leftnav/levelI.html);
+}
+
+.leftNav #level-i.selected .hd a {
+  color: #507101;
+}
+
+.leftNav #level-j .hd {
+  background-position: 0 -450px;
+}
+
+.leftNav #level-j.selected, .leftNav #level-j.selected .hd {
+  background-image: url(../images/leftnav/levelJ.html);
+}
+
+.leftNav #level-j.selected .hd a {
+  color: #475b56;
+}
+
+.leftNav #level-k .hd {
+  background-position: 0 -495px;
+}
+
+.leftNav #level-k.selected, .leftNav #level-k.selected .hd {
+  background-image: url(../images/leftnav/levelK.html);
+}
+
+.leftNav #level-k.selected .hd a {
+  color: #9e3d17;
+}
+
+.leftNav #level-l .hd {
+  background-position: 0 -539px;
+}
+
+.leftNav #level-l.selected, .leftNav #level-l.selected .hd {
+  background-image: url(../images/leftnav/levelL.html);
+}
+
+.leftNav #level-l.selected .hd a {
+  color: #2f2185;
+}
+
+.leftNav #coming-soon {
+  background: #edfbc0 url(../images/leftnav/comingSoonGradient.html) repeat-x;
+  margin: 20px -12px 0;
+}
+
+.leftNav #coming-soon.selected {
+  background-image: url(../images/leftnav/comingSoonGradientSelected.html);
+}
+
+.leftNav #coming-soon.selected .hd a {
+  color: #854f02;
+}
+
+.leftNav #coming-soon .hd {
+  background-image: url(../images/leftnav/comingSoonGirl.html);
+  margin-left: 12px;
+}
+
+#gradesNav.leftNav #coming-soon.selected .hd {
+  background-position: 0 0;
+}
+
+.colorNav #coming-soon.shell .hd {
+  background-image: none;
+  border-left: none;
+  padding-left: 5px;
+}
+
+#topicsNav #coming-soon .hd {
+  height: 39px;
+}
+
+#topicsNav #coming-soon .hd a {
+  line-height: 35px;
+}
+
+#coming-soon .hd a em {
+  font-size: 10px;
+  vertical-align: top;
+}
+
+/***********************************************/
+/* Win the specificity fight by coming last    */
+/***********************************************/
+#gradesNav.leftNav .selected .hd {
+  background-position: 0 -45px;
+}
+
+#gradesNav.colorNav .selected .hd {
+  background-image: none;
+}
+
+/***********************************************/
+/* Each grade has it's own styles for the body */
+/***********************************************/
+
+.leftNav #level-a .bd,
+.leftNav #level-a .bd li a,
+.leftNav #level-a li span {
+  background-color: #eb4d28;
+  border-bottom-color: #F28066;
+}
+
+.leftNav #level-a .bd li {
+  background-image: url(../images/leftNavLi_pre-k.html);
+}
+
+.leftNav #level-a .bd li:hover a,
+.leftNav #level-a .bd li.hover a,
+.leftNav #level-a .bd li:hover span,
+.leftNav #level-a .bd li.hover span,
+.leftNav #level-a .bd li#curProblem,
+.leftNav #level-a .bd li:hover,
+.leftNav #level-a .bd li.hover {
+  background-color: #fdc800;
+  color: #a31f00;
+}
+
+.leftNav #level-b .bd,
+.leftNav #level-b .bd li a,
+.leftNav #level-b li span {
+  background-color: #3faee3;
+  border-bottom-color: #6DCCF9;
+}
+
+.leftNav #level-b .bd li {
+  background-image: url(../images/leftNavLi_kindergarten.html);
+}
+
+.leftNav #level-b .bd li:hover a,
+.leftNav #level-b .bd li.hover a,
+.leftNav #level-b .bd li:hover span,
+.leftNav #level-b .bd li.hover span,
+.leftNav #level-b .bd li#curProblem,
+.leftNav #level-b .bd li:hover,
+.leftNav #level-b .bd li.hover {
+  background-color: #fdc800;
+  color: #1278a9;
+}
+
+.leftNav #level-c .bd,
+.leftNav #level-c .bd li a,
+.leftNav #level-c li span {
+  background-color: #d86dad;
+  border-bottom-color: #ED85C3;
+}
+
+.leftNav #level-c .bd li {
+  background-image: url(../images/leftNavLi_first.html);
+}
+
+.leftNav #level-c .bd li:hover a,
+.leftNav #level-c .bd li.hover a,
+.leftNav #level-c .bd li:hover span,
+.leftNav #level-c .bd li.hover span,
+.leftNav #level-c .bd li#curProblem,
+.leftNav #level-c .bd li:hover,
+.leftNav #level-c .bd li.hover {
+  background-color: #fdc800;
+  color: #9a1063;
+}
+
+.leftNav #level-d .bd,
+.leftNav #level-d .bd li a,
+.leftNav #level-d li span {
+  background-color: #0fbf4d;
+  border-bottom-color: #4DD97E;
+}
+
+.leftNav #level-d .bd li {
+  background-image: url(../images/leftNavLi_second.html);
+}
+
+.leftNav #level-d .bd li:hover a,
+.leftNav #level-d .bd li.hover a,
+.leftNav #level-d .bd li:hover span,
+.leftNav #level-d .bd li.hover span,
+.leftNav #level-d .bd li#curProblem,
+.leftNav #level-d .bd li:hover,
+.leftNav #level-d .bd li.hover {
+  background-color: #fdc800;
+  color: #0c8637;
+}
+
+.leftNav #level-e .bd,
+.leftNav #level-e .bd li a,
+.leftNav #level-e li span {
+  background-color: #9139dc;
+  border-bottom-color: #BE7FF2;
+}
+
+.leftNav #level-e .bd li {
+  background-image: url(../images/leftNavLi_third.html);
+}
+
+.leftNav #level-e .bd li:hover a,
+.leftNav #level-e .bd li.hover a,
+.leftNav #level-e .bd li:hover span,
+.leftNav #level-e .bd li.hover span,
+.leftNav #level-e .bd li#curProblem,
+.leftNav #level-e .bd li:hover,
+.leftNav #level-e .bd li.hover {
+  background-color: #fdc800;
+  color: #9a1063;
+}
+
+.leftNav #level-f .bd,
+.leftNav #level-f .bd li a,
+.leftNav #level-f li span {
+  background-color: #BC810C;
+  border-bottom-color: #E6B554;
+}
+
+.leftNav #level-f .bd li {
+  background-image: url(../images/leftNavLi_fourth.html);
+}
+
+.leftNav #level-f .bd li:hover a,
+.leftNav #level-f .bd li.hover a,
+.leftNav #level-f .bd li:hover span,
+.leftNav #level-f .bd li.hover span,
+.leftNav #level-f .bd li#curProblem,
+.leftNav #level-f .bd li:hover,
+.leftNav #level-f .bd li.hover {
+  background-color: #fdc800;
+  color: #A36A01;
+}
+
+.leftNav #level-g .bd,
+.leftNav #level-g .bd li a,
+.leftNav #level-g li span {
+  background-color: #e7537d;
+  border-bottom-color: #EEA4D0;
+}
+
+.leftNav #level-g .bd li {
+  background-image: url(../images/leftNavLi_fifth.html);
+}
+
+.leftNav #level-g .bd li:hover a,
+.leftNav #level-g .bd li.hover a,
+.leftNav #level-g .bd li:hover span,
+.leftNav #level-g .bd li.hover span,
+.leftNav #level-g .bd li#curProblem,
+.leftNav #level-g .bd li:hover,
+.leftNav #level-g .bd li.hover {
+  background-color: #fdc800;
+  color: #9a1063;
+}
+
+.leftNav #level-h .bd,
+.leftNav #level-h .bd li a,
+.leftNav #level-h li span {
+  background-color: #00659E;
+  border-bottom-color: #51AADC;
+}
+
+.leftNav #level-h .bd li {
+  background-image: url(../images/leftNavLi_sixth.html);
+}
+
+.leftNav #level-h .bd li:hover a,
+.leftNav #level-h .bd li.hover a,
+.leftNav #level-h .bd li:hover span,
+.leftNav #level-h .bd li.hover span,
+.leftNav #level-h .bd li#curProblem,
+.leftNav #level-h .bd li:hover,
+.leftNav #level-h .bd li.hover {
+  background-color: #fdc800;
+  color: #006699;
+}
+
+.leftNav #level-i .bd,
+.leftNav #level-i .bd li a,
+.leftNav #level-i li span {
+  background-color: #8AA63F;
+  border-bottom-color: #CDF06F;
+}
+
+.leftNav #level-i .bd li {
+  background-image: url(../images/leftNavLi_seventh.html);
+}
+
+.leftNav #level-i .bd li:hover a,
+.leftNav #level-i .bd li.hover a,
+.leftNav #level-i .bd li:hover span,
+.leftNav #level-i .bd li.hover span,
+.leftNav #level-i .bd li#curProblem,
+.leftNav #level-i .bd li:hover,
+.leftNav #level-i .bd li.hover {
+  background-color: #fdc800;
+  color: #4C630D;
+}
+
+.leftNav #level-j .bd,
+.leftNav #level-j .bd li a,
+.leftNav #level-j li span {
+  background-color: #5C7873;
+  border-bottom-color: #AEC8BF;
+}
+
+.leftNav #level-j .bd li {
+  background-image: url(../images/leftNavLi_eighth.html);
+}
+
+.leftNav #level-j .bd li:hover a,
+.leftNav #level-j .bd li.hover a,
+.leftNav #level-j .bd li:hover span,
+.leftNav #level-j .bd li.hover span,
+.leftNav #level-j .bd li#curProblem,
+.leftNav #level-j .bd li:hover,
+.leftNav #level-j .bd li.hover {
+  background-color: #fdc800;
+  color: #276157;
+}
+
+.leftNav #level-k .bd,
+.leftNav #level-k .bd li a,
+.leftNav #level-k li span {
+  background-color: #E35D03;
+  border-bottom-color: #fcb786;
+}
+
+.leftNav #level-k .bd li {
+  background-image: url(../images/leftNavLi_algebra.html);
+}
+
+.leftNav #level-k .bd li:hover a,
+.leftNav #level-k .bd li.hover a,
+.leftNav #level-k .bd li:hover span,
+.leftNav #level-k .bd li.hover span,
+.leftNav #level-k .bd li#curProblem,
+.leftNav #level-k .bd li:hover,
+.leftNav #level-k .bd li.hover {
+  background-color: #fdc800;
+  color: #9e3d17;
+}
+
+
+/***********************************************/
+/* Colors for the topics left nav              */
+/***********************************************/
+.colorNav .shell .red {
+  border-left-color: #d1323d;
+}
+
+#topicsNav .selected .red {
+  background-image: url(../images/leftnav/red.html);
+}
+
+#topicsNav .tall-selected .red {
+  background-image: url(../images/leftnav/redTall.html);
+}
+
+#topicsNav .selected .red a {
+  color: #80181f;
+}
+
+.colorNav .shell .blue1 {
+  border-left-color: #3b7df2;
+}
+
+#topicsNav .selected .blue1 {
+  background-image: url(../images/leftnav/blue1.html);
+}
+
+#topicsNav .tall-selected .blue1 {
+  background-image: url(../images/leftnav/blue1Tall.html);
+}
+
+#topicsNav .selected .blue1 a {
+  color: #02427c;
+}
+
+.colorNav .shell .pink1 {
+  border-left-color: #c65c9c;
+}
+
+#topicsNav .selected .pink1 {
+  background-image: url(../images/leftnav/pink1.html);
+}
+
+#topicsNav .tall-selected .pink1 {
+  background-image: url(../images/leftnav/pink1Tall.html);
+}
+
+#topicsNav .selected .pink1 a {
+  color: #a90969;
+}
+
+.colorNav .shell .green1 {
+  border-left-color: #2cc662;
+}
+
+#topicsNav .selected .green1 {
+  background-image: url(../images/leftnav/green1.html);
+}
+
+#topicsNav .tall-selected .green1 {
+  background-image: url(../images/leftnav/green1Tall.html);
+}
+
+#topicsNav .selected .green1 a {
+  color: #137216;
+}
+
+.colorNav .shell .purple {
+  border-left-color: #9139dc;
+}
+
+#topicsNav .selected .purple {
+  background-image: url(../images/leftnav/purple.html);
+}
+
+#topicsNav .tall-selected .purple {
+  background-image: url(../images/leftnav/purpleTall.html);
+}
+
+#topicsNav .selected .purple a {
+  color: #4c0687;
+}
+
+.colorNav .shell .purple2 {
+  color: #2f2185;
+}
+
+.colorNav .shell .orange {
+  border-left-color: #c19726;
+}
+
+#topicsNav .selected .orange {
+  background-image: url(../images/leftnav/orange.html);
+}
+
+#topicsNav .tall-selected .orange {
+  background-image: url(../images/leftnav/orangeTall.html);
+}
+
+#topicsNav .selected .orange a {
+  color: #7a5901;
+}
+
+.colorNav .shell .pink2 {
+  border-left-color: #e7537d;
+}
+
+#topicsNav .selected .pink2 {
+  background-image: url(../images/leftnav/pink2.html);
+}
+
+#topicsNav .tall-selected .pink2 {
+  background-image: url(../images/leftnav/pink2Tall.html);
+}
+
+#topicsNav .selected .pink2 a {
+  color: #a20934;
+}
+
+.colorNav .shell .blue2 {
+  border-left-color: #00659e;
+}
+
+#topicsNav .selected .blue2 {
+  background-image: url(../images/leftnav/blue2.html);
+}
+
+#topicsNav .tall-selected .blue2 {
+  background-image: url(../images/leftnav/blue2Tall.html);
+}
+
+#topicsNav .selected .blue2 a {
+  color: #034a72;
+}
+
+.colorNav .shell .green2 {
+  border-left-color: #93b33e;
+}
+
+#topicsNav .selected .green2 {
+  background-image: url(../images/leftnav/green2.html);
+}
+
+#topicsNav .tall-selected .green2 {
+  background-image: url(../images/leftnav/green2Tall.html);
+}
+
+#topicsNav .selected .green2 a {
+  color: #507101;
+}
+
+.colorNav .shell .aqua {
+  border-left-color: #68837d;
+}
+
+#topicsNav .selected .aqua {
+  background-image: url(../images/leftnav/aqua.html);
+}
+
+#topicsNav .tall-selected .aqua {
+  background-image: url(../images/leftnav/aquaTall.html);
+}
+
+#topicsNav .selected .aqua a {
+  color: #475b56;
+}
+
+.colorNav .shell .yellow {
+  border-left-color: #98930a;
+}
+
+#topicsNav .selected .yellow {
+  background-image: url(../images/leftnav/yellow.html);
+}
+
+#topicsNav .tall-selected .yellow {
+  background-image: url(../images/leftnav/yellowTall.html);
+}
+
+#topicsNav .selected .yellow a {
+  color: #736f01;
+}
+
+/***********************************************/
+/* Generic styles for left nav body            */
+/* -- These come last due to order specificity */
+/***********************************************/
+
+.leftNav dl {
+  padding: 5px;
+  width: 170px;
+}
+
+.leftNav dt {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.leftNav dd {
+  margin-left: 3px;
+}
+
+.leftNav ul {
+  padding-top: 5px;
+}
+
+.leftNav li {
+  background-position: 6px 4px;
+  background-repeat: no-repeat;
+  color: #fff;
+  list-style: none outside;
+  margin: 0 -5px 0 -8px;
+  padding: 0 5px 0 18px;
+}
+
+.leftNav li#curProblem,
+.leftNav li:hover {
+  background-position: -200px 4px;
+}
+
+.leftNav li.mastered {
+  background-position: -409px 2px;
+}
+
+.leftNav li#curProblem.mastered,
+.leftNav li.mastered:hover,
+.leftNav li.masteredhover {
+  background-position: -621px 2px;
+}
+
+/*
+.leftNav li:hover a,
+.leftNav li.hover a,
+.leftNav li#curProblem,
+.leftNav li:hover,
+.leftNav li.hover {
+  background-position: 4px -185px;
+}
+*/
+
+.leftNav li a {
+  background-color: inherit;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.leftNav li span {
+  background-color: inherit;
+  color: inherit;
+  font-size: 12px;
+}
+
+.leftNav li:hover,
+.leftNav li.hover,
+.leftNav li#curProblem,
+.leftNav li#curProblem span {
+  background-color: #fdc800;
+}
+
+.leftNav li#curProblem span {
+  font-weight: bold;
+}
+
+.leftNav li#curProblem span.score {
+  color: inherit;
+  font-weight: normal;
+}

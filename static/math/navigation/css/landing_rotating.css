@@ -1,0 +1,792 @@
+/* Styles for the home page. */
+
+#hd.notabs {
+  height: 41px;
+}
+
+#bd.homepage {
+  background-color:#fff;
+  min-height: 0;
+  padding-top: 40px;
+}
+
+.homepage #yui-main .yui-b {
+  margin:0 0 0 5px;
+}
+
+.homepage h1, .homepage h2 {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.homepage h1 {
+  color: #6e9407;
+  font-size: 32px;
+}
+
+.ixl-skin a.arrowLink,
+.ixl-skin a.arrowLink:hover {
+  font-size: 9px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.ixl-skin a.arrowLink em,
+.ixl-skin a.arrowLink:hover em {
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*************************************************************************************************
+ * Styles for the grades
+ *************************************************************************************************/
+
+.gradeinfo h1 {
+  padding: 0 .5em .25em;
+}
+
+.gradeinfo h1 em {
+  color: #a8cf3f;
+}
+
+.gradeinfo .yui-gb .yui-u,
+.gradeinfo .yui-gd .first {
+  background:transparent url(../images/landing/home_box_sprite.html) no-repeat 1px 3px;
+  height: 173px;
+}
+.gradeinfo .yui-gb .level-b {
+  background-position:1px -197px;
+}
+.gradeinfo .yui-gb .level-c {
+  background-position:1px -397px;
+}
+.gradeinfo .yui-gb .level-d {
+  background-position:1px -597px;
+}
+.gradeinfo .yui-gb .level-e {
+  background-position:1px -797px;
+}
+.gradeinfo .yui-gb .level-f {
+  background-position:1px -997px;
+}
+.gradeinfo .yui-gb .level-g {
+  background-position:1px -1197px;
+}
+.gradeinfo .yui-gb .level-h {
+  background-position:1px -1397px;
+}
+.gradeinfo .yui-gb .level-i {
+  background-position:1px -1597px;
+}
+.gradeinfo .yui-gb .level-j {
+  background-position:1px -1797px;
+}
+.gradeinfo .yui-gb .level-k {
+  background-position:1px -1997px;
+}
+.gradeinfo .yui-gb .level-l {
+  background-position:1px -2197px;
+}
+
+.gradeinfo h2,
+.gradeinfo h2 a,
+.gradeinfo h2 a:hover {
+  color: #3b5100;
+  font-size: 24px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.gradeinfo .content p {
+  margin: 10px 0 0;
+}
+
+.gradeinfo .yui-u .content {
+  height: 114px;
+  margin: 8px 10px 8px 20px;
+  padding: 15px 46px 15px 47px;
+  width: 176px;
+}
+
+.gradeinfo .smallkids .content {
+  background:transparent url(../images/landing/landing_small_vs4.html) no-repeat;
+  padding: 15px 78px 15px 15px;
+}
+
+.gradeinfo .yui-u.moregrades {
+  background:none;
+}
+
+.gradeinfo .yui-gb .yui-u.moregrades {
+  _background-image:none;
+}
+
+.gradeinfo .moregrades .content {
+  /**
+   * bug 24303, remove leafs
+   * background: transparent url(../images/landing/leaves.png) no-repeat 0 15px;
+   */
+  background-image:none;
+  height: 137px;
+  padding: 10px;
+  width: auto;
+}
+
+.gradeinfo .comingsoon-box {
+  background: #f0ffc8;
+  border-radius: 5px;
+  font-size: 13px;
+  margin: 0 15px 15px;
+  padding: 15px;
+}
+
+.comingsoon-box h4, .comingsoon-box p {
+  display: inline;
+}
+
+.comingsoon-box h4 {
+  color: #6e9407;
+  font-weight: bold;
+}
+
+.comingsoon-box p {
+  color: #000000;
+}
+
+.csd-eu .homepage .comingsoon-box {
+  background: transparent url(../images/landing/euroStars.html) no-repeat 97% 11px;
+  min-height: 90px;
+}
+
+.csd-eu .homepage .comingsoon-box h4 {
+  display: block;
+  font: normal 24px "Trebuchet MS", Verdana, Helvetica, sans-serif;
+  color: #3b5100;
+}
+
+.csd-eu .homepage .comingsoon-box p {
+  display: block;
+  margin: 15px 0 0;
+}
+
+/**
+ * National Curriculum
+ */
+#nationalCurriculum {
+  _height:155px;
+  min-height:155px;
+  padding:0 20px 0 20px;
+}
+
+#nationalCurriculum p {
+  margin-bottom:15px;
+}
+
+.csd-au #nationalCurriculum {
+  background:transparent url(../images/landing/country_map_small_au.html) no-repeat 96% 10px;
+}
+
+.csd-ie #nationalCurriculum {
+  background:transparent url(../images/landing/country_map_small_ie.html) no-repeat 96% 10px;
+}
+
+.csd-nz #nationalCurriculum {
+  background:transparent url(../images/landing/country_map_small_nz.html) no-repeat 96% 10px;
+}
+
+.csd-za #nationalCurriculum {
+  background:transparent url(../images/landing/country_map_small_za.html) no-repeat 96% 10px;
+}
+
+.csd-sg #nationalCurriculum {
+  background:transparent url(../images/landing/country_map_small_sg.html) no-repeat 96% 10px;
+}
+
+div#dvEndGradeItem {
+  border-bottom:1px solid #d9f38d;
+  padding-bottom:0;
+}
+
+.moregrades div#dvEndGradeItem p {
+  font-size:12px;
+}
+
+.csd-ca div#dvEndGradeItem p,
+.csd-uk div#dvEndGradeItem p {
+  margin-top:15px;
+}
+
+.gradeinfo .level-a .content {
+  background-position: 200px -15px;
+}
+
+.gradeinfo .level-b .content {
+  background-position: -130px -15px;
+}
+
+.gradeinfo .level-c .content {
+  background-position: -450px -15px;
+}
+
+.gradeinfo .level-d .content {
+  background-position: -785px -15px;
+}
+
+.gradeinfo .level-e .content {
+  background-position: -1110px -15px;
+}
+
+.gradeinfo .level-f .content {
+  background-position: -1430px -15px;
+}
+
+.gradeinfo .level-g .content {
+  background-position: -1750px -15px;
+}
+
+.gradeinfo .level-h .content {
+  background-position: -2060px -15px;
+}
+
+.gradeinfo .level-i .content {
+  background-position: -2375px -15px;
+}
+
+.gradeinfo .level-j .content {
+  background-position: -2705px -15px;
+}
+
+.gradeinfo .level-k .content {
+  background-position: -3025px -15px;
+}
+
+.gradeinfo .level-l .content {
+  background-position: -3345px -15px;
+}
+
+/*************************************************************************************************
+ * Styles for the blurbs at the top of the page.
+ *************************************************************************************************/
+
+#blurb {
+  background: transparent url(../images/landing/essences_bg_no_gradient.html) no-repeat 0 bottom;
+  height: 346px;
+  position: relative;
+  width: 973px;
+
+  _width: 952px;
+  _background: transparent url(../images/landing/ab2c/essences_bkgnd_big_png8.html) no-repeat 0 bottom;
+}
+
+#blurb .messages {
+  height: 241px;
+  left: 15px;
+  position: absolute;
+  top: 75px;
+  width: 595px;
+}
+
+#blurb .messages a,
+#blurb .messages a:hover {
+  display: block;
+  height: 85%;
+  text-decoration: none;
+  width: 100%;
+}
+
+#blurb #essences .messages {
+  background: transparent url(../images/landing/ab2c/ixl_landing_big_essence1.html) no-repeat 0 bottom;
+}
+
+#blurb #essences .essence1 .messages  {
+  background-image: url(../images/landing/ab2c/ixl_landing_big_essence1.html);
+}
+
+#blurb #essences .essence2 .messages  {
+  background-image: url(../images/landing/ab2c/ixl_landing_big_essence2.html);
+}
+
+#blurb #essences .essence3 .messages {
+  background-image: url(../images/landing/ab2c/ixl_landing_big_essence3.html);
+}
+
+#blurb #essences .essence4 .messages {
+  background-image: url(../images/landing/ab2c/ixl_landing_big_essence4.html);
+}
+
+#blurb #essences .essence5 .messages {
+  background-image: url(../images/landing/ab2c/ixl_landing_big_essence5.html);
+}
+
+#blurb .quote {
+  font: 12px Verdana, arial, helvetica, clean, sans-serif;
+  position: absolute;
+  right: 50px;
+  _right: 30px;
+  top: 40px;
+  width: 305px;
+}
+
+#blurb .moreQuotes {
+  top: 265px;
+}
+
+#blurb .quote p {
+  color: #657a0c;
+  font: normal 14px/17px Verdana, Helvetica, sans-serif;
+  padding: 0 15px;
+  margin: 10px 0;
+}
+
+#blurb .quote p.quoteTxt {
+  margin-top:2px;
+}
+
+#blurb .moreQuotes p {
+  color: #657a0c;
+  font: bold 10px Verdana, Helvetica, sans-serif;
+}
+
+#blurb .moreQuotes .lkDivider {
+  color: #00659E;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+#blurb .quote p.quoteNameAddr {
+  color: #8DAD1A;
+  font-size: 10px;
+  font-style: italic;
+  line-height: 12px;
+}
+
+#blurb #essences #dvGrnQuoteBg {
+  background: transparent url(../images/landing/essences_quote.html) no-repeat 0 0;
+  height:53px;
+  position:absolute;
+  right:293px;
+  _right:272px;
+  top:35px;
+  width:65px;
+}
+
+/**************************************************************************************************
+ * Essences
+ **************************************************************************************************/
+
+#essences #essence_paging {
+  color: #0189BE;
+  font: bold 7px "Trebuchet MS", Verdana, Helvetica, sans-serif;
+  height: 16px;
+  left: 530px;
+  position: absolute;
+  text-align:left;
+  top: 296px;
+}
+
+#essence_paging .yui-pg-pages {
+  vertical-align:-15%;
+  _padding-right:5px;
+}
+
+#essence_paging .yui-pg-page {
+  background: #FDC800 url(../../../../img/spacer.gif) no-repeat 0 0;
+  display:inline-block;
+  height:9px;
+  padding:0;
+  margin-right:5px;
+  width:9px;
+}
+
+#essence_paging .yui-pg-current-page {
+  background-color: #35a3ff;
+}
+
+#blurb div.essence {
+  display: none;
+}
+
+#blurb .essence1 div.essence1,
+#blurb .essence2 div.essence2,
+#blurb .essence3 div.essence3,
+#blurb .essence4 div.essence4,
+#blurb .essence5 div.essence5
+{
+  display: block;
+}
+
+#essences h1 {
+  color:#00659E;
+  font:bold 29px "Trebuchet MS", Verdana, Helvetica, sans-serif;
+  left:35px;
+  position:absolute;
+  top:26px;
+}
+
+#essences h1 a {
+  color:#00659E;
+  font:bold 29px "Trebuchet MS", Verdana, Helvetica, sans-serif;
+  text-decoration:none;
+}
+
+#essences h2 {
+  color:#35a3ff;
+  font:bold 18px "Trebuchet MS", Verdana, Helvetica, sans-serif;
+  left:35px;
+  position:absolute;
+  top:61px;
+}
+
+#essences h2 a {
+  color:#35a3ff;
+  font:bold 18px "Trebuchet MS", Verdana, Helvetica, sans-serif;
+  text-decoration:none;
+}
+
+#essences h2 a:hover {
+  text-decoration:underline;
+}
+
+#essences h2 span.doubleArrow, #essences h2 span.doubleArrow a {
+  font-size:12px;
+}
+
+#essences h2 span.doubleArrow a:hover {
+  text-decoration:none;
+}
+
+.csd-au #essences.essence3 h1,
+.csd-ie #essences.essence3 h1,
+.csd-nz #essences.essence3 h1,
+.csd-uk #essences.essence3 h1,
+.csd-za #essences.essence3 h1 {
+  letter-spacing:-1px;
+}
+
+/*****************************************************************************
+ * Styles for state standards list
+ *****************************************************************************/
+
+#stateStds {
+  /** background: transparent url(../images/landing/stateCountries.png) no-repeat 0 15px; */
+  background: transparent url(../images/landing/state_usa_no_gradient.html) no-repeat 0 15px;
+  height: 355px;
+}
+
+.csd-uk #stateStds {
+  background-image:none;
+  height:auto;
+}
+
+#nationalCurriculum h1,
+#stateStds h1 {
+  padding: .5em 0;
+}
+
+#nationalCurriculum h1 a,
+#stateStds h1 a {
+  color: #6E9407;
+  text-decoration: none;
+}
+
+#stateStds h1 a:hover {
+  color: #6E9407;
+  text-decoration: underline;
+}
+
+#stateList h1 {
+  padding-left: .5em;
+}
+
+#stateList {
+  width:57%;
+}
+
+.csd-uk #stateList {
+  width:100%;
+}
+
+#countryList {
+  width:42%;
+}
+
+p#ukStdsAreaTxt {
+  font-size:14px;
+  padding:0 0 20px 18px;
+}
+
+#listDiv {
+  padding:0 0 18px 18px;
+}
+
+#stateList ul {
+  float: left;
+  padding-right: 18px;
+}
+
+#stateList ul.last {
+  padding-right: 0;
+}
+
+#stateList li {
+  font-size: 11px;
+  line-height: 18px;
+  padding-left:27px;
+}
+
+#stateList li a {
+  font-size: 11px;
+}
+
+.csd-uk #stateList li {
+  display:inline;
+  margin-right:65px;
+  padding:6px 0 13px 45px;
+}
+
+.csd-ca #stateList li {
+  padding:3px 0 8px 45px;
+  width:200px;
+}
+
+.csd-ca #stateList li a,
+.csd-uk #stateList li a {
+  color:#1F6EAA;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.csd-ca #stateList li.groupTitle {
+  color:#DB7543;
+  font-size:13px;
+  font-weight:bold;
+  padding:8px 0 3px 0;
+}
+
+.csd-ca #stateList li.groupLi {
+  background:url(../../images/listbullet-small.gif) no-repeat 0 7px;
+  padding-left:20px;
+}
+
+
+
+/*****************************************************************************
+ * Styles for /signin
+ *****************************************************************************/
+
+.signin {
+  padding: 0 35px 35px;
+}
+
+.signin h1 {
+  font-weight: bold;
+}
+
+.signin h2 {
+  color: #6E9407;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.signin .agroup label {
+  display: block;
+  font-size: 116%;
+  font-weight: bold;
+  margin: 1em 0 .5em;
+}
+
+.signin .agroup input {
+  width: 60%;
+}
+
+.signin .bgroup {
+  margin: 1em 0;
+}
+
+.signin .bgroup input {
+  vertical-align: middle;
+}
+
+.signin .bgroup #siremember {
+  margin-left: 10px;
+}
+
+.signin .forgot a {
+  margin-right: 15px;
+}
+
+.signin table {
+  border: 3px solid #FDC800;
+  background: #FFF6D7;
+}
+
+.signin th, .signin td {
+  width: 50%;
+  padding: 25px 25px 0;
+}
+
+.signin .first th {
+  width: 100%;
+}
+
+.signin .last th, .signin td {
+  padding-bottom: 25px;
+}
+
+.signin #actKeyDiv {
+  padding: 15px 0 5px;
+}
+
+/* Force both buttons to be the same size. Bug 43252 -pkim 9/11/13 */
+.continue-guest.crisp-button,
+.become-member.crisp-button {
+  width: 193px;
+}
+
+/*****************************************************************************
+ * Styles for /signin/custom domain
+ *****************************************************************************/
+.custom {
+  padding: 0 35px 35px;
+}
+
+.custom .customLeft {
+  padding-left: 35px;
+}
+
+.custom .customRight {
+  padding-right: 35px;
+}
+
+.custom .first .agroup table {
+  background: none;
+  border: none;
+  width: 355px;
+}
+
+.custom .first .agroup th {
+  padding: 10px 15px 10px 0;
+}
+
+.custom .first .agroup td {
+  padding: 10px 5px 10px 0;
+  width: 255px;
+* width: 260px;
+}
+
+
+.custom .first .agroup td.username {
+  width: 100%;
+}
+
+.custom .first .agroup label {
+  margin: 0;
+}
+
+.custom .first .agroup input {
+  width: 99%;
+}
+
+.custom .first #customSigninForm .agroup .sign-in-row td,
+.custom .first #customSigninForm .agroup .sign-in-row th {
+  padding: 6px 0 6px;
+}
+
+.custom .agroup .sign-in-row input {
+  vertical-align: middle;
+  width: inherit;
+}
+
+.custom .agroup .sign-in-row #siremember {
+  margin-left: 10px;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: left;
+}
+
+.custom .bgroup a {
+  font-size: 11px;
+}
+
+.custom .bgroup {
+  font-size: 12px;
+  margin: 6px 0 12px 92px;
+}
+
+.custom .bgroup input {
+  vertical-align: middle;
+}
+
+.custom .title {
+  font:bold 40px "Trebuchet MS", Verdana, Helvetica, sans-serif;
+  color: #00659e;
+  padding: 15px 0;
+}
+
+.homepage .custom h1 {
+  font-size: 24px;
+  padding: 15px 0;
+}
+
+.custom h2 {
+  font: bold 14px Verdana, Helvetica, sans-serif;
+  padding: 30px 0 15px 0;
+  color: #6e9407
+}
+
+.custom .links {
+  background: transparent url(../../images/custom_signin_kids.png) no-repeat right bottom;
+}
+
+.custom .links div {
+  padding: 2px 0 15px 0;
+}
+
+.custom #actKeyDiv {
+  padding: 15px 0 5px;
+}
+
+.custom #actKeyDiv a {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.custom .actTxt,
+.custom .agroup label,
+.custom .agroup .domain {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.custom .agroup td.domain {
+  text-align: right;
+  width: inherit; /* Bug 43621 - the custom domain cell was having weird widths set -pkim 9/26/13 */
+}
+
+.ixl-skin .custom a.arrowLink em,
+.ixl-skin .custom a.arrowLink:hover em {
+  font-size:12px;
+}
+
+.custom #wrongOrganization {
+  font-size: 12px;
+}
+
+.custom #loginSection {
+  padding-bottom: 30px;
+  padding-left: 35px;
+}
+
+.custom .loginBg {
+  margin-left: -35px;
+  background: transparent url(../../images/custom_signin_background.png) no-repeat right bottom;
+  width: 460px;
+}
+
+.custom #welcomeText {
+  width: 440px;
+  font-size: 14px;
+}
+
